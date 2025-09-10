@@ -80,7 +80,7 @@ for generated_image in result.generated_images:
 
 # At this rate the harvest was shaping up to be the bees knees...
 
-The men of Upper Vales would even brave the river crossing. All for one of their best delicacies -- honey ale. Why even the nearby Greenwood elves have been known to drop by on their way to Dimrill Dale.
+The men of Upper Vales would often travel a day's journey, crossing the Great River by way of the North Bridge. All for one of their best delicacies -- Honey Ale. Rumor is the expert Woodsmen are unwilling to use the sturdier Dwarvish Bridge to the South. Something about their crafts being unwelcome in those parts. Why even the nearby Greenwood Elves have been known to drop by on their way to Dimrill Dale. Though the Elves have never been willing to share what they use the honey for.
 
 _-- Somewhere in the Vale, where the bee's are blissfully unaware of the adventure this day will bring._
 
