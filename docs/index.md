@@ -74,7 +74,7 @@ result = client.models.generate_images(
 )
 
 for generated_image in result.generated_images:
-  (image := generated_image.image).save(f"results/scene_{result.generated_images.index(generated_image)}.jpg")
+  (image := generated_image.image).save(f"docs/results/scene_{result.generated_images.index(generated_image)}.jpg")
   (image := generated_image.image).show()
 ```
 
@@ -174,14 +174,55 @@ Image.open("standard/scene_6.jpg")
 
 
 ```python
-Image.open("ultra/scene_1.jpg")
+east_1 = Image.open("docs/ultra/scene_1.jpg")
+
+prompt = """This 4K studio photo depicts a river and forest during morning golden hour.
+Use a wide-angle lens and 16:9 aspect.
+The forest is a mixture of fir and pine. The undergrowth is thick with flowering wild berries and old growth.
+The forest is alive with bird calls as the bees buzz about their business.
+You are walking on the river bank towards the beehive.
+Start further away from the beehive.
+The river is flowing along the river bank.
+Preserve existing lighting and studio quality."""
 ```
 
 
 
 
-    
+
 ![ultra/scene_1.jpg](ultra/scene_1.jpg)
+
+
+
+
+
+```python
+# Converting the image to bytes
+image_bytes_io = io.BytesIO()
+east_1.save(image_bytes_io, format=east_1.format)
+image_bytes = image_bytes_io.getvalue()
+
+operation = client.models.generate_videos(
+    model="veo-3.0-generate-001",
+    prompt=prompt,
+    image=types.Image(image_bytes=image_bytes, mime_type=east_1.format),
+)
+
+while not operation.done:
+    print("Waiting for video generation to complete...")
+    time.sleep(10)
+    operation = client.operations.get(operation)
+
+client.files.download(file=operation.result.generated_videos[0])
+operation.result.generated_videos[0].video.save("docs/results/east_1.mp4")
+display(operation.result.generated_videos[0].video.show())
+```
+
+
+
+
+
+![](results/east_1.mp4)
     
 
 
