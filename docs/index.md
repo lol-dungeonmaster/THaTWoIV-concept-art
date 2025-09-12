@@ -128,7 +128,7 @@ south_1 = Image.open("docs/standard/scene_1.jpg")
 
 _Facing south towards Middle Vales. Misty Mountains is hidden by tree-line._
 
-![south_1](standard/scene_1.jpg)
+[![](standard/scene_1.jpg)](https://raw.githubusercontent.com/lol-dungeonmaster/THaTWoIV-concept-art/main/docs/results/south_1.mp4)
 
 
 ```python
@@ -191,6 +191,10 @@ generated_video.video.save("docs/results/east_1.mp4")
 _Facing east towards confluence with the Great River. Foothills of Greenwood Mountains in the distance. Lindórinand on the south shore._
 
 [![](ultra/scene_1.jpg)](https://raw.githubusercontent.com/lol-dungeonmaster/THaTWoIV-concept-art/main/docs/results/east_1.mp4)
+
+[![](ultra/scene_1.jpg)](https://raw.githubusercontent.com/lol-dungeonmaster/THaTWoIV-concept-art/main/docs/results/east_2.mp4)
+
+[![](ultra/scene_1.jpg)](https://raw.githubusercontent.com/lol-dungeonmaster/THaTWoIV-concept-art/main/docs/results/east_3.mp4)
 
 
 ```python
