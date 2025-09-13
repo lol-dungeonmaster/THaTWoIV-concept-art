@@ -40,11 +40,6 @@ genai.models.Models.generate_content = retry.Retry(
     predicate=is_retriable)(genai.models.Models.generate_content)
 ```
 
-    Note: you may need to restart the kernel to use updated packages.
-    KeyError: authentication token for LMNR_PROJECT_API_KEY is undefined
-    Skipping Laminar.initialize()
-
-
 # The bee's are particularly busy this time of year...
 
 The little critters are often too busy to notice the comings and goings of their keepers. Especially when completed at the right time -- before 2nd Breakfast. Well then it's hardly a chore what with them off tending to the blooming mouse-leaf.
@@ -89,28 +84,20 @@ _-- Somewhere in the Vale, where the bee's are blissfully unaware of the adventu
 ```python
 # Generate from base images
 
-def generate_video(image):
-    prompt = """This 4K studio photo depicts a river and forest during morning golden hour.
-    Use a wide-angle lens and 16:9 aspect.
-    The forest is a mixture of fir and pine. The undergrowth is thick with flowering wild berries and old growth.
-    In the forest birds are calling.
-    You are walking on the river bank towards the beehive.
-    The bee's are feeding on nearby wildflowers.
-    Start further away from the beehive.
-    The river current is rushing past you.
-    Preserve existing lighting and studio quality."""
-
+def generate_video(image, prompt):
     # Converting the image to bytes
     image_bytes_io = io.BytesIO()
     image.save(image_bytes_io, format=image.format)
     image_bytes = image_bytes_io.getvalue()
 
     operation = client.models.generate_videos(
-        model="veo-3.0-generate-001",
+        model="veo-3.0-fast-generate-001", # veo-3.0-generate-001, veo-3.0-fast-generate-001
         prompt=prompt,
         image=types.Image(image_bytes=image_bytes, mime_type=image.format),
-    )
-
+        config=types.GenerateVideosConfig(
+            aspect_ratio="16:9",
+            number_of_videos=1))
+    
     while not operation.done:
         print("Waiting for video generation to complete...")
         time.sleep(10)
@@ -119,14 +106,14 @@ def generate_video(image):
     return operation.result.generated_videos[0]
 ```
 
-#### Imagen-4.0 standard output
+### Imagen-4.0 standard output
 
 
 ```python
 south_1 = Image.open("docs/standard/scene_1.jpg")
 ```
 
-_Facing south towards Middle Vales. Misty Mountains is hidden by tree-line._
+_Facing south towards Middle Vales. Greenwood Forest on opposite shore. View of Misty Mountains is hidden by Lindórinand._
 
 [![](standard/scene_1.jpg)](https://raw.githubusercontent.com/lol-dungeonmaster/THaTWoIV-concept-art/main/docs/results/south_1.mp4)
 
@@ -135,104 +122,81 @@ _Facing south towards Middle Vales. Misty Mountains is hidden by tree-line._
 north_1 = Image.open("docs/standard/scene_2.jpg")
 ```
 
-_Facing north near the footsteps of Misty Mountains._
+_Facing north at N.Lindórinand near the foothill of Misty Mountains._
 
 ![north_1](standard/scene_2.jpg)
 
 
 ```python
-Image.open("docs/standard/scene_3.jpg")
+south_2 = Image.open("docs/standard/scene_4.jpg")
 ```
 
+_Facing south at the entrance to Middle Vales. Greenwood Forest is opposite shore. Eaves of Fangorn can be seen in the distance._
 
-![standard/scene_3.jpg](standard/scene_3.jpg)
+![south_2](standard/scene_4.jpg)
+
+### Imagen-4.0 ultra output
 
 
 ```python
-Image.open("docs/standard/scene_4.jpg")
+# Describe the generated video for veo-3.0
+
+prompt = """A river and forest during morning golden hour. 
+Use a wide-angle lens, 16:9 aspect and 1080p resolution. 
+The forest undergrowth is thick with flowering wild berries and old growth.  
+The river current is rushing past you. There's no driftwood in the river.
+The bee's are feeding on nearby wildflowers. 
+Bird calls can be heard vividly as you walk along the river bank towards the beehive.
+Start further away from the beehive."""
 ```
 
 
-![standard/scene_4.jpg](standard/scene_4.jpg)
-
-
 ```python
-Image.open("docs/standard/scene_5.jpg")
-```
+# Original lacks clouds in hills (veo/imagen have no post-process editing)
 
-
-![standard/scene_5.jpg](standard/scene_5.jpg)
-
-
-```python
-Image.open("docs/standard/scene_6.jpg")
-```
-
-![standard/scene_6.jpg](standard/scene_6.jpg)
-
-
-#### Imagen-4.0 ultra output
-
-
-```python
 east_1 = Image.open("docs/ultra/scene_1.jpg")
-generated_video = generate_video(east_1)
+generated_video = generate_video(east_1, prompt)
 client.files.download(file=generated_video.video)
 generated_video.video.save("docs/results/east_1.mp4")
 ```
 
-    Waiting for video generation to complete...
-    Waiting for video generation to complete...
-    Waiting for video generation to complete...
-    Waiting for video generation to complete...
-    Waiting for video generation to complete...
+
+```python
+# Edit the original to add clouds
+
+result = client.models.generate_content(
+    model="gemini-2.5-flash-image-preview",
+    contents=[
+        """Add thin clounds to the peaks of only the two mountains the distance. Use studio quality and 16:9 aspect.""", 
+        client.files.upload(file="docs/ultra/scene_1.jpg")]
+)
+
+for part in result.candidates[0].content.parts:
+    if part.text:
+        print(part.text)
+    elif part.inline_data is not None:
+        image = Image.open(BytesIO(part.inline_data.data))
+        image.save("docs/results/east_1_edit.png")
+```
 
 
-_Facing east towards confluence with the Great River. Foothills of Greenwood Mountains in the distance. Lindórinand on the south shore._
+```python
+# Generate video with the edited version
+
+east_1_edit = Image.open("docs/results/east_1_edit.png")
+generated_video = generate_video(east_1_edit, prompt)
+client.files.download(file=generated_video.video)
+generated_video.video.save("docs/results/east_1_edit.mp4")
+```
+
+_Facing east towards confluence with the Great River __(with edits)__. Amon Lanc of Greenwood Mountains can be seen in the distance. Lindórinand on the opposite shore._
+
+[![](results/east_1_edit.png)](https://raw.githubusercontent.com/lol-dungeonmaster/THaTWoIV-concept-art/main/docs/results/east_1_edit.mp4)
+
+_Facing east towards confluence with the Great River __(original)__. Amon Lanc of Greenwood Mountains can be seen in the distance. Lindórinand on the opposite shore._
 
 [![](ultra/scene_1.jpg)](https://raw.githubusercontent.com/lol-dungeonmaster/THaTWoIV-concept-art/main/docs/results/east_1.mp4)
 
 [![](ultra/scene_1.jpg)](https://raw.githubusercontent.com/lol-dungeonmaster/THaTWoIV-concept-art/main/docs/results/east_2.mp4)
 
 [![](ultra/scene_1.jpg)](https://raw.githubusercontent.com/lol-dungeonmaster/THaTWoIV-concept-art/main/docs/results/east_3.mp4)
-
-
-```python
-Image.open("docs/ultra/scene_2.jpg")
-```
-
-
-![ultra/scene_2.jpg](ultra/scene_2.jpg)
-
-
-```python
-Image.open("docs/ultra/scene_3.jpg")
-```
-
-
-![ultra/scene_3.jpg](ultra/scene_3.jpg)
-
-
-```python
-Image.open("docs/ultra/scene_4.jpg")
-```
-
-
-![ultra/scene_4.jpg](ultra/scene_4.jpg)
-
-
-```python
-Image.open("docs/ultra/scene_5.jpg")
-```
-
-
-![ultra/scene_5.jpg](ultra/scene_5.jpg)
-
-
-```python
-Image.open("docs/ultra/scene_6.jpg")
-```
-
-
-![ultra/scene_6.jpg](ultra/scene_6.jpg)
-
