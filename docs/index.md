@@ -40,6 +40,11 @@ genai.models.Models.generate_content = retry.Retry(
     predicate=is_retriable)(genai.models.Models.generate_content)
 ```
 
+    Note: you may need to restart the kernel to use updated packages.
+    KeyError: authentication token for LMNR_PROJECT_API_KEY is undefined
+    Skipping Laminar.initialize()
+
+
 # The bee's are particularly busy this time of year...
 
 The little critters are often too busy to notice the comings and goings of their keepers. Especially when completed at the right time -- before 2nd Breakfast. Well then it's hardly a chore what with them off tending to the blooming mouse-leaf.
@@ -63,15 +68,17 @@ With the sun on the right side."""
 standard = "imagen-4.0-generate-001"
 ultra = "imagen-4.0-ultra-generate-001"
 
-result = client.models.generate_images(
-    model=standard,
-    prompt=prompt,
-    config=dict(aspect_ratio="16:9", image_size="2k")
-)
+def generate_image(prompt):
+  result = client.models.generate_images(
+      model=ultra,
+      prompt=prompt,
+      config=dict(aspect_ratio="16:9", image_size="2k")
+  )
+  for n, generated_image in enumerate(result.generated_images):
+    (image := generated_image.image).save(f"docs/results/scene_{n}.jpg")
+    (image := generated_image.image).show()
 
-for n, generated_image in enumerate(result.generated_images):
-  (image := generated_image.image).save(f"docs/results/scene_{n}.jpg")
-  (image := generated_image.image).show()
+generate_image(prompt)
 ```
 
 # At this rate the harvest was shaping up to be the bees knees...
@@ -113,7 +120,7 @@ def generate_video(image, prompt):
 south_1 = Image.open("docs/standard/scene_1.jpg")
 ```
 
-_Facing south towards Middle Vales. Greenwood Forest on opposite shore. View of Misty Mountains is hidden by Lindórinand._
+_Facing south towards Middle Vales from NE.Lindórinand. Greenwood Forest on opposite shore. View of Misty Mountains is hidden by tree-line._
 
 [![](standard/scene_1.jpg)](https://raw.githubusercontent.com/lol-dungeonmaster/THaTWoIV-concept-art/main/docs/results/south_1.mp4)
 
@@ -122,7 +129,7 @@ _Facing south towards Middle Vales. Greenwood Forest on opposite shore. View of 
 north_1 = Image.open("docs/standard/scene_2.jpg")
 ```
 
-_Facing north at N.Lindórinand near the foothill of Misty Mountains._
+_Facing north at NW.Lindórinand near the foothill of Misty Mountains and Falls of Miraloth._
 
 ![north_1](standard/scene_2.jpg)
 
@@ -131,7 +138,7 @@ _Facing north at N.Lindórinand near the foothill of Misty Mountains._
 south_2 = Image.open("docs/standard/scene_4.jpg")
 ```
 
-_Facing south at the entrance to Middle Vales. Greenwood Forest is opposite shore. Eaves of Fangorn can be seen in the distance._
+_Facing south at the entrance to Middle Vales from SE.Lindórinand. Greenwood Forest is opposite shore. Here is where Lindórinand becomes Eaves of Fangorn. By starlight you can hear songs of the Elves echoing over the far tree-line. Beyond the far tree-line the River Limlaith joins Great River._
 
 ![south_2](standard/scene_4.jpg)
 
@@ -189,14 +196,40 @@ client.files.download(file=generated_video.video)
 generated_video.video.save("docs/results/east_1_edit.mp4")
 ```
 
-_Facing east towards confluence with the Great River __(with edits)__. Amon Lanc of Greenwood Mountains can be seen in the distance. Lindórinand on the opposite shore._
+_Facing east along Sîr Ninglor towards confluence with the Great River __(with edits)__. Amon Lanc of Greenwood Mountains can be seen in the distance. NE.Lindórinand on the opposite shore. The absence of marshes is a deliberate device in this version of the legendarium._
 
 [![](results/east_1_edit.png)](https://raw.githubusercontent.com/lol-dungeonmaster/THaTWoIV-concept-art/main/docs/results/east_1_edit.mp4)
 
-_Facing east towards confluence with the Great River __(original)__. Amon Lanc of Greenwood Mountains can be seen in the distance. Lindórinand on the opposite shore._
+_Facing east along Sîr Ninglor towards confluence with the Great River __(original)__. Amon Lanc of Greenwood Mountains can be seen in the distance. NE.Lindórinand on the opposite shore. The absence of marshes is a deliberate device in this version of the legendarium._
 
 [![](ultra/scene_1.jpg)](https://raw.githubusercontent.com/lol-dungeonmaster/THaTWoIV-concept-art/main/docs/results/east_1.mp4)
 
 [![](ultra/scene_1.jpg)](https://raw.githubusercontent.com/lol-dungeonmaster/THaTWoIV-concept-art/main/docs/results/east_2.mp4)
 
 [![](ultra/scene_1.jpg)](https://raw.githubusercontent.com/lol-dungeonmaster/THaTWoIV-concept-art/main/docs/results/east_3.mp4)
+
+
+```python
+# Update imagen prompt for north facing view
+
+prompt = """A 4K studio photo of a forest clearing next to a great river in mid-summer. 
+Use a wide-angle lens, golden hour lighting, and 16:9 aspect. 
+The river is of large width and it runs straight next to a forested mountain range on the right side. 
+The forest is a mixture of fir and pine. The undergrowth is thick with flowering wild berries and old growth. 
+Next to the river's edge patches of yellow Iris and blue Myosotis grow along with reeds. 
+A rustic beehive can be seen in the forest clearing near the water's edge on the left side.
+It's bee's are eagerly feeding on the nearby wildflowers. 
+Face the camera across the river width towards the mountains.
+With the sun on the right side."""
+
+generate_image(prompt)
+```
+
+
+```python
+north_2 = Image.open("docs/ultra/scene_7.jpg")
+```
+
+_Facing north along Great River from confluence with Sîr Ninglor. Greenwood Forest and the Forest Road on the opposite shore. The road continues north for another day's journey before turning east. The absence of marshes is a deliberate device in this version of the legendarium._
+
+![north_2](ultra/scene_7.jpg)
