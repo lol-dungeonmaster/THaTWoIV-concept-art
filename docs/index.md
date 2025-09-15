@@ -40,11 +40,6 @@ genai.models.Models.generate_content = retry.Retry(
     predicate=is_retriable)(genai.models.Models.generate_content)
 ```
 
-    Note: you may need to restart the kernel to use updated packages.
-    KeyError: authentication token for LMNR_PROJECT_API_KEY is undefined
-    Skipping Laminar.initialize()
-
-
 # The bee's are particularly busy this time of year...
 
 The little critters are often too busy to notice the comings and goings of their keepers. Especially when completed at the right time -- before 2nd Breakfast. Well then it's hardly a chore what with them off tending to the blooming mouse-leaf.
@@ -98,7 +93,7 @@ def generate_video(image, prompt):
     image_bytes = image_bytes_io.getvalue()
 
     operation = client.models.generate_videos(
-        model="veo-3.0-fast-generate-001", # veo-3.0-generate-001, veo-3.0-fast-generate-001
+        model="veo-3.0-generate-001", # veo-3.0-generate-001, veo-3.0-fast-generate-001
         prompt=prompt,
         image=types.Image(image_bytes=image_bytes, mime_type=image.format),
         config=types.GenerateVideosConfig(
@@ -153,7 +148,8 @@ Use a wide-angle lens, 16:9 aspect and 1080p resolution.
 The forest undergrowth is thick with flowering wild berries and old growth.  
 The river current is rushing past you. There's no driftwood in the river.
 The bee's are feeding on nearby wildflowers. 
-Bird calls can be heard vividly as you walk along the river bank towards the beehive.
+The sound of Dipper, Warbler, and Thrush bird song can be heard in the forest.
+You are walking along the river bank towards the beehive.
 Start further away from the beehive."""
 ```
 
