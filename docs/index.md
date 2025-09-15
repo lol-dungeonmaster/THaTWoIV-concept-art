@@ -229,3 +229,48 @@ north_2 = Image.open("docs/ultra/scene_7.jpg")
 _Facing north along Great River from confluence with Sîr Ninglor. Greenwood Forest and the Forest Road on the opposite shore. The road continues north for another day's journey before turning east. The absence of marshes is a deliberate device in this version of the legendarium._
 
 ![north_2](ultra/scene_7.jpg)
+
+
+```python
+# Generate a map of the region
+
+prompt2 = """Concerning tolkien mythology, draw me a map of the historical Vales of Anduin. 
+Label only locations that existed earlier than S.A 1350. 
+Include Upper, Middle, and Lower Vales regions. 
+Upper Vales extends south including Lindórinand and Greenwood Forest. 
+Middle Vales extends south of Lindórinand including Falls of Rauros. 
+Lower Vales begins where the Great River flows through Rauros-falls. 
+Lower Vales extends south of Rauros-falls including Bay of Belfalas. 
+Draw the Anduin/Great River starting from it's source in the north all the way to Bay of Belfalas in the south. 
+Use old cartography style on worn paper."""
+
+prompt = """Concerning tolkien mythology, draw me a map including historical Rhovanion and Rohan regions. 
+Label only features that existed earlier than S.A 1350. 
+Use old cartography style on worn paper."""
+
+result = client.models.generate_content(
+    model="gemini-2.5-flash-image-preview",
+    contents=[prompt2]
+)
+
+for part in result.candidates[0].content.parts:
+    if part.text:
+        print(part.text)
+    elif part.inline_data is not None:
+        image = Image.open(BytesIO(part.inline_data.data))
+        image.save("docs/results/Vales_of_Anduin_Map.png")
+```
+
+
+```python
+map_1 = Image.open("docs/results/Vales_of_Anduin_Map_1.png")
+```
+
+![map_1](results/Vales_of_Anduin_Map_1.png)
+
+
+```python
+map_2 = Image.open("docs/results/Vales_of_Anduin_Map_2.png")
+```
+
+![map_2](results/Vales_of_Anduin_Map_2.png)
