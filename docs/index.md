@@ -129,7 +129,7 @@ _Facing south towards Middle Vales from NE.Lindórinand. Greenwood Forest on opp
 north_1 = Image.open("docs/standard/scene_2.jpg")
 ```
 
-_Facing north at NW.Lindórinand near the foothill of Misty Mountains and Falls of Miraloth._
+_Facing north at NW.Lindórinand near the foothill of Misty Mountains and Nîr Linhaith._
 
 ![north_1](standard/scene_2.jpg)
 
@@ -138,7 +138,7 @@ _Facing north at NW.Lindórinand near the foothill of Misty Mountains and Falls 
 south_2 = Image.open("docs/standard/scene_4.jpg")
 ```
 
-_Facing south at the entrance to Middle Vales from SE.Lindórinand. Greenwood Forest is opposite shore. Here is where Lindórinand becomes Eaves of Fangorn. By starlight you can hear songs of the Elves echoing over the far tree-line. Beyond the far tree-line the River Limlaith joins Great River._
+_Facing south at the entrance to Middle Vales from SE.Lindórinand. Greenwood Forest is opposite shore. Here is where Lindórinand becomes Eaves of Fangorn. By starlight you can hear songs of the Elves echoing over the far tree-line. Their minstrels are said to gather for nightly contest along Sîr Limlaith._
 
 ![south_2](standard/scene_4.jpg)
 
