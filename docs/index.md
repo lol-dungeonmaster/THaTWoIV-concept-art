@@ -364,3 +364,27 @@ generate_image(prompt)
 _A bird's eye view of the East-gate into Khazad-dûm in Dimrill Dale. The elves call this place Nanduhirion for the lake, which is said to dim even the light of midday. The Looking-glass Lake, or Mirrormere where you can see your future in the stars of brightest daylight. Or, so the dwarves speak of in tales. Next to the waterfall a mountain pass heads west. Fortunately this is midsummer. In the winter the foot of the mountain pass requires constant snow-removal. Futher east the Mirrormere empties into Sîr Celebrant before confluence with the Great River._
 
 ![dimrill_1](results/dimrill_1.jpg)
+
+
+```python
+# Generate view of Mirrormere
+
+prompt = """A 4K studio photo of looking into the waters of a lake.
+Use a wide-angle lens, 16:9 aspect and golden hour lighting.
+The lake is surrounded on all sides by a sheer cliff except opposite the camera is a river.
+At the lake's shore is fir and pine forests. The forest continues up on the cliff.
+The lake's surface shows a sea of stars.
+Close to the camera, some of the stars are connected like a dew-covered spider web in sunlight.
+The sky shows clouds and morning daylight. Only the lake shows the stars.
+In the lake, the stars that are closer are brighter than the ones farther away.
+At the center of the web is also a star.
+Make the stars and web look like they're glowing from below the lake surface.
+The web appears only faintly between the stars.
+The web has stars at major points."""
+
+generate_image(prompt)
+```
+
+_I once snuck a peek into the Mirrormere while on consignment for the Ents. "A crown that speaks of good fortune", as the dwarves would boast. I'm not sure I would say I saw a crown. Maybe they meant a crown of stars? After all, this season's honey harvest does look certain to be best ever._
+
+![mirrormere_1](results/mirrormere_1.jpg)
