@@ -232,6 +232,32 @@ _Facing north along Great River from confluence with Sîr Ninglor. Greenwood For
 
 
 ```python
+# Generate a view of the Forest Road
+
+prompt = """A 4K studio quality photo of the Y-shaped split in an ancient mountain path that travels through a forest.
+Use a wide-angle lens, golden hour lighting, and 16:9 aspect. It's mid-summer.
+The forest is a mixture of fir and pine. Wildflowers and wildberries grow in the underbrush.
+The path is around twelve feet wide. The ground rises to the right of the path. 
+To the left and distant down the rise is a wide and straight flowing river.
+There is a tall mountain range on the distant right shore of the river.
+An even taller mountain range is on the distant left shore of the river and farther away.
+The mountain path is made of large and smooth, but rough hewn, tiles of Black Ironstone.
+On the left-side of the path is an ancient guard-rail made of stone.
+Lichen and Moss grow on the guard-rail and between the tiles of the mountain path.
+A stone waypoint marker is located off the mountain path in the underbrush between the left and right branch.
+The waypoint marker is smooth granite and shaped like a pyramidal spire with a sun engraving.
+The left branch of the split in the path curves downhill and along the river.
+The right branch of the split in the path bends right sharply up the hill into a valley."""
+
+generate_image(prompt)
+```
+
+_If you use a horse, goat or boar and travel light you can complete the journey in half the time. Which raises a fine point, the dwarves really are marvelous in their road building. Their roads connect the upper reaches of the Vales and beyond to Dimrill Dale. Why there's hardly any hoof-wear or mount fatigue reaching the entrance to the road east from Ninglor Crossing. From here the path splits. The high road leads into the valley and Forest Road. It's another day's journey north on the river-bound road, by pony-reckoning, to Greylin Crossing._
+
+![forest_road_1](ultra/forest_road_1.jpg)
+
+
+```python
 # Generate a map of the region
 
 map_src = Image.open("docs/src/vales_of_anduin_sketch.jpg")
@@ -363,7 +389,7 @@ generate_image(prompt)
 
 _A bird's eye view of the East-gate into Khazad-dûm in Dimrill Dale. The elves call this place Nanduhirion for the lake, which is said to dim even the light of midday. The Looking-glass Lake, or Mirrormere where you can see your future in the stars of brightest daylight. Or, so the dwarves speak of in tales. Next to the waterfall a mountain pass heads west. Fortunately this is midsummer. In the winter the foot of the mountain pass requires constant snow-removal. Futher east the Mirrormere empties into Sîr Celebrant before confluence with the Great River._
 
-![dimrill_1](results/dimrill_1.jpg)
+![dimrill_1](ultra/dimrill_1.jpg)
 
 
 ```python
@@ -387,4 +413,4 @@ generate_image(prompt)
 
 _I once snuck a peek into the Mirrormere while on consignment for the Ents. "A crown that speaks of good fortune", as the dwarves would boast. I'm not sure I would say I saw a crown. Maybe they meant a crown of stars? After all, this season's honey harvest does look certain to be best ever._
 
-![mirrormere_1](results/mirrormere_1.jpg)
+![mirrormere_1](ultra/mirrormere_1.jpg)
