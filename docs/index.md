@@ -258,6 +258,38 @@ _If you use a horse, goat or boar and travel light you can complete the journey 
 
 
 ```python
+# Generate a view of Celduin Crossing
+
+prompt = """A 4K studio quality photo. Use a wide-angle lens, and 16:9 aspect. It's mid-summer.
+A mountain path travels through a forest into a clearing and across a stone bridge.
+The bridge crosses a deep and wide river.
+The mountain path continues after crossing the bridge into the distant forest.
+The mountain path is made of large and smooth, but rough hewn, tiles of Black Ironstone.
+The ground rises to the left of the mountain path before the bridge but then flattens into the clearing.
+The ground is relatively flat to the right of the mountain path before the bridge and after the bridge.
+A tall mountain range rises on the distant horizon.
+Stone rubble from an ancient ruin is strewn across the underbrush before crossing the bridge.
+Lichen and moss grow on the stone rubble and between the tiles of the mountain path.
+The forest on the near-side of the bridge is a mixture of fir and pine.
+The forest on the far-side of the bridge is a mixture of blooming linden, beech and hornbeam.
+The underbrush is thick with flowering wildberries, wildflowers, old growth.
+The path is around twelve feet wide.
+The noon-hour sun shines from above-left.
+"""
+
+generate_image(prompt)
+```
+
+_Two days east by pony, provided you don't get eaten by wild animals, you'll reach Celduin Crossing. This is where the Forest Road exits the Greenwood south of Esgaroth. The bridge is south of Esgaroth-falls where waters from the Forest River and Erebor flow from the long lake. Once, these were are also lands of the Ents. The Eaves of Neldoreth was where Greenwood Forest met the great beech grove. It grew from across the bridge, to the east, past River Carnen. That was before a shadow fell on the east. Now the Ents lament departing those lands, preferring to tend the land south of the bridge._
+
+___"A shadow-lingers-where-green-should-grow that one‑who‑makes‑the‑green‑things‑grow cannot cleanse..."___ _, is their rather cryptic Entish explanation._
+
+_Few, except the Dwarves, use the bridge nowadays. The path leads north along the west side of Esgaroth to their outpost, Erebor. Across the bridge leads north-east to their outpost in Iron Hills. Elves will sometimes traverse the Forest Road then follow the river south-east to Dorwinion. Not to taste the artisan wines, they'll say, so much as the pilgrimage to visit relatives. East-folk from Rhûn occasionally follow River Celduin or Carnen upstream. Those few that reach the Vales are oft-greeted with suspicion by wary Upper Vales-folk._
+
+![forest_road_2](ultra/forest_road_2.jpg)
+
+
+```python
 # Generate a map of the region
 
 map_src = Image.open("docs/src/vales_of_anduin_sketch.jpg")
@@ -284,6 +316,7 @@ Mountains:
 
 Settlements:
 - Mount Gundabad
+- Dorwinion
 - Lindórinand
 - Amon Lanc
 - Dimrill Dale
