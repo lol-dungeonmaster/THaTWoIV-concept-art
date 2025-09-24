@@ -124,7 +124,7 @@ _Facing south towards Middle Vales from NE.Lindórinand. Greenwood Forest on opp
 north_1 = Image.open("docs/standard/scene_2.jpg")
 ```
 
-_Facing north at NW.Lindórinand near the foothill of Misty Mountains and Nîr Linhaith._
+_Facing north at NW.Lindórinand near the foothill of Misty Mountains and Nîr Linhaith. A water-spirit of Sîr Ninglor dwells nearby. Seldom seen, except by starlight, when she plays flute-melodies seemingly in tune with the Elf-bards of Aldalómë._
 
 ![north_1](standard/scene_2.jpg)
 
@@ -133,7 +133,7 @@ _Facing north at NW.Lindórinand near the foothill of Misty Mountains and Nîr L
 south_2 = Image.open("docs/standard/scene_4.jpg")
 ```
 
-_Facing south at the entrance to Middle Vales from SE.Lindórinand. Greenwood Forest is opposite shore. Here is where Lindórinand becomes Eaves of Fangorn. By starlight you can hear songs of the Elves echoing over the far tree-line. Their minstrels are said to gather for nightly contest along Sîr Limlaith._
+_Facing south at the entrance to Middle Vales from SE.Lindórinand. Greenwood Forest is opposite shore. Here is where Lindórinand becomes Eaves of Fangorn or Aldalómë as it's known by Ents. By starlight you can hear songs of the Elves echoing over the far tree-line. Their minstrels are said to gather for nightly contest along Sîr Limlaith._
 
 ![south_2](standard/scene_4.jpg)
 
@@ -280,9 +280,9 @@ The noon-hour sun shines from above-left.
 generate_image(prompt)
 ```
 
-_Two days east by pony, provided you don't get eaten by wild animals, you'll reach Celduin Crossing. This is where the Forest Road exits the Greenwood south of Esgaroth. The bridge is south of Esgaroth-falls where waters from the Forest River and Erebor flow from the long lake. Once, these were are also lands of the Ents. The Eaves of Neldoreth was where Greenwood Forest met the great beech grove. It grew from across the bridge, to the east, past River Carnen. That was before a shadow fell on the east. Now the Ents lament departing those lands, preferring to tend the land south of the bridge._
+_Two days east by pony, provided you don't get eaten by wild animals, you'll reach Celduin Crossing. This is where the Forest Road exits the Greenwood south of Esgaroth. The bridge is south of Esgaroth-falls where waters from the Forest River and Erebor flow from the long lake. Once, these were lands of the Ents. The Eaves of Neldoreth was where Greenwood Forest met the great beech grove. It grew from across the bridge, to the east, past River Carnen. That was before a shadow fell on the east and the world was changed. Now the Ents lament departing those lands, preferring to tend the land south of the bridge._
 
-___"A shadow-lingers-where-green-should-grow that one‑who‑makes‑the‑green‑things‑grow cannot cleanse..."___ _, is their rather cryptic Entish explanation._
+___"A shadow-lingers-where-green-should-grow that the one‑who‑makes‑the‑green‑things‑grow cannot cleanse..."___ _, is their rather cryptic Entish explanation._
 
 _Few, except the Dwarves, use the bridge nowadays. The path leads north along the west side of Esgaroth to their outpost, Erebor. Across the bridge leads north-east to their outpost in Iron Hills. Elves will sometimes traverse the Forest Road then follow the river south-east to Dorwinion. Not to taste the artisan wines, they'll say, so much as the pilgrimage to visit relatives. East-folk from Rhûn occasionally follow River Celduin or Carnen upstream. Those few that reach the Vales are oft-greeted with suspicion by wary Upper Vales-folk._
 
