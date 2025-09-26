@@ -67,7 +67,7 @@ def generate_image(prompt):
   result = client.models.generate_images(
       model=ultra,
       prompt=prompt,
-      config=dict(aspect_ratio="16:9", image_size="2k", person_generation="DONT_ALLOW")
+      config=dict(aspect_ratio="16:9", image_size="2k") # person_generation="DONT_ALLOW"
   )
   for n, generated_image in enumerate(result.generated_images):
     (image := generated_image.image).save(f"docs/results/scene_{n}.jpg")
@@ -124,9 +124,33 @@ _Facing south towards Middle Vales from NE.Lindórinand. Greenwood Forest on opp
 north_1 = Image.open("docs/standard/scene_2.jpg")
 ```
 
-_Facing north at NW.Lindórinand near the foothill of Misty Mountains and Nîr Linhaith. A water-spirit of Sîr Ninglor dwells nearby. Seldom seen, except by starlight, when she plays flute-melodies seemingly in tune with the Elf-bards of Aldalómë._
+_Facing north at NW.Lindórinand near the foothill of Misty Mountains and Nîr Linhaith. A water-spirit of Sîr Ninglor dwells nearby. Seldom seen, except by starlight, when she plays flute melodies seemingly in tune with the Elf-bards of Aldalómë._
 
 ![north_1](standard/scene_2.jpg)
+
+
+```python
+# Generate a view of Nîr Linhaith
+
+prompt = """A 4K studio quality photo-realistic scene. Use a wide-angle lens, and 16:9 aspect. It's mid-summer.
+A small bay at the base of a tall mountain range. A cascade of waterfall flows from high on the mountain range into the bay.
+It's past midnight and it's dark outside. There's a crescent moon and stars in the sky. Use blue-hour lighting.
+At the bottom of the screen a river carries water from the bay downstream.
+The forest on both sides of the bay is a mixture of fir and pine.
+The undergrowth is thick with flowering wild berries and old growth.
+Next to the river's edge yellow Iris and blue Myosotis grow along with reeds.
+A rustic beehive can be seen on the right side of the bay. There are no bees at this time.
+An old and thick oak tree grows on the left side of the bay.
+One large bough from the oak hangs over the bay. A swing hangs from the bough over the water.
+Near the waterfall base is a rocky island with a blooming linden tree.
+The gold-colored fireflies are scattered near the water and under the trees."""
+
+generate_image(prompt)
+```
+
+_Facing west at NW.Lindórinand near the foothill of Misty Mountains and Nîr Linhaith. The water spirit didn't always have the flute. Upon meeting our kin for the first time she reportedly took the form of a river otter. The tale goes that the otter fished up an old sword from the base of Nîr Linhaith. Leaving the sword at the foot of one of our kin, she turned to leave. Having nothing else to offer our kin asked them to accept their most prized possession --a flute they use for animal-taming. They've reportedly been best friends since._
+
+![south_nir_linlaith_1](ultra/south_nir_linlaith_1.jpg)
 
 
 ```python
