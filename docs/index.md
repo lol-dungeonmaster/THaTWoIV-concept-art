@@ -1,9 +1,9 @@
 # Where to begin...
 
+<details>
+<summary>Setup the environment</summary>
 
 ```python
-# Setup the environment
-
 %pip install -qU google-genai==1.29.0 google-api-core lmnr[all] Pillow
 
 import os, io, IPython, time
@@ -40,14 +40,16 @@ genai.models.Models.generate_content = retry.Retry(
     predicate=is_retriable)(genai.models.Models.generate_content)
 ```
 
+</details><br>
+
 # The bee's are particularly busy this time of year...
 
 The little critters are often too busy to notice the comings and goings of their keepers. Especially when completed at the right time -- before 2nd Breakfast. Well then it's hardly a chore what with them off tending to the blooming mouse-leaf.
 
+<details>
+<summary>Generate base images</summary>
 
 ```python
-# Generate base images
-
 prompt = """A 4K studio photo of a forest clearing next to a great river in mid-summer. 
 Use a wide-angle lens, golden hour lighting, and 16:9 aspect. 
 The river is a vast tributary of large width. 
@@ -75,6 +77,7 @@ def generate_image(prompt):
 
 generate_image(prompt)
 ```
+</details><br>
 
 # At this rate the harvest was shaping up to be the bees knees...
 
@@ -82,10 +85,10 @@ The men of Upper Vales would often travel a day's journey, crossing the Great Ri
 
 _-- Somewhere in the Vale, where the bee's are blissfully unaware of the adventure this day will bring._
 
+<details>
+<summary>Generate from base images</summary>
 
 ```python
-# Generate from base images
-
 def generate_video(image, prompt):
     # Converting the image to bytes
     image_bytes_io = io.BytesIO()
@@ -108,6 +111,8 @@ def generate_video(image, prompt):
     return operation.result.generated_videos[0]
 ```
 
+</details>
+
 ### Imagen-4.0 standard output
 
 
@@ -128,10 +133,10 @@ _Facing north at NW.Lindórinand near the foothill of Misty Mountains and Nîr L
 
 ![north_1](standard/scene_2.jpg)
 
+<details>
+<summary>Generate a view of Nîr Linhaith</summary>
 
 ```python
-# Generate a view of Nîr Linhaith
-
 prompt = """A 4K studio quality photo-realistic scene. Use a wide-angle lens, and 16:9 aspect. It's mid-summer.
 A small bay at the base of a tall mountain range. A cascade of waterfall flows from high on the mountain range into the bay.
 It's past midnight and it's dark outside. There's a crescent moon and stars in the sky. Use blue-hour lighting.
@@ -148,7 +153,9 @@ The gold-colored fireflies are scattered near the water and under the trees."""
 generate_image(prompt)
 ```
 
-_Facing west at NW.Lindórinand near the foothill of Misty Mountains and Nîr Linhaith. The water spirit didn't always have the flute. Upon meeting our kin for the first time she reportedly took the form of a river otter. The tale goes that the otter fished up an old sword from the base of Nîr Linhaith. Leaving the sword at the foot of one of our kin, she turned to leave. Having nothing else to offer our kin asked them to accept their most prized possession --a flute they use for animal-taming. They've reportedly been best friends since._
+</details><br>
+
+_Facing west at NW.Lindórinand near the foothill of Misty Mountains and Nîr Linhaith. The water spirit didn't always have the flute. Upon meeting our kin for the first time she changed into the form of a river otter. The tale goes that the otter fished up an old sword from the base of Nîr Linhaith. Leaving the sword at the foot of one of our kin, she turned to depart. Having nothing else to offer our kin asked them to accept their most prized possession --a flute they use for animal-taming. They've reportedly been the best of friends since._
 
 ![south_nir_linlaith_1](ultra/south_nir_linlaith_1.jpg)
 
@@ -163,10 +170,10 @@ _Facing south at the entrance to Middle Vales from SE.Lindórinand. Greenwood Fo
 
 ### Imagen-4.0 ultra output
 
+<details>
+<summary>Describe the generated video for veo-3.0</summary>
 
 ```python
-# Describe the generated video for veo-3.0
-
 prompt = """A river and forest during morning golden hour. 
 Use a wide-angle lens, 16:9 aspect and 1080p resolution. 
 The forest undergrowth is thick with flowering wild berries and old growth.  
@@ -177,20 +184,23 @@ You are walking along the river bank towards the beehive.
 Start further away from the beehive."""
 ```
 
+</details>
+<details>
+<summary>Original lacks clouds in hills (veo/imagen have no post-process editing)</summary>
 
 ```python
-# Original lacks clouds in hills (veo/imagen have no post-process editing)
-
 east_1 = Image.open("docs/ultra/scene_1.jpg")
 generated_video = generate_video(east_1, prompt)
 client.files.download(file=generated_video.video)
 generated_video.video.save("docs/results/east_1.mp4")
 ```
 
+</details>
+
+<details>
+<summary>Edit the original to add clouds</summary>
 
 ```python
-# Edit the original to add clouds
-
 result = client.models.generate_content(
     model="gemini-2.5-flash-image-preview",
     contents=[
@@ -206,15 +216,19 @@ for part in result.candidates[0].content.parts:
         image.save("docs/results/east_1_edit.png")
 ```
 
+</details>
+
+<details>
+<summary>Generate video with the edited version</summary>
 
 ```python
-# Generate video with the edited version
-
 east_1_edit = Image.open("docs/results/east_1_edit.png")
 generated_video = generate_video(east_1_edit, prompt)
 client.files.download(file=generated_video.video)
 generated_video.video.save("docs/results/east_1_edit.mp4")
 ```
+
+</details><br>
 
 _Facing east along Sîr Ninglor towards confluence with the Great River __(with edits)__. Amon Lanc of Greenwood Mountains can be seen in the distance. NE.Lindórinand on the opposite shore. The absence of marshes is a deliberate device in this version of the legendarium._
 
@@ -228,10 +242,10 @@ _Facing east along Sîr Ninglor towards confluence with the Great River __(origi
 
 [![](ultra/scene_1.jpg)](https://raw.githubusercontent.com/lol-dungeonmaster/THaTWoIV-concept-art/main/docs/results/east_3.mp4)
 
+<details>
+<summary>Update imagen prompt for north facing view</summary>
 
 ```python
-# Update imagen prompt for north facing view
-
 prompt = """A 4K studio photo of a forest clearing next to a great river in mid-summer. 
 Use a wide-angle lens, golden hour lighting, and 16:9 aspect. 
 The river is of large width and it runs straight next to a forested mountain range on the right side. 
@@ -245,6 +259,7 @@ With the sun on the right side."""
 generate_image(prompt)
 ```
 
+</details><br>
 
 ```python
 north_2 = Image.open("docs/ultra/scene_7.jpg")
@@ -254,10 +269,10 @@ _Facing north along Great River from confluence with Sîr Ninglor. Greenwood For
 
 ![north_2](ultra/scene_7.jpg)
 
+<details>
+<summary>Generate a view of the Forest Road</summary>
 
 ```python
-# Generate a view of the Forest Road
-
 prompt = """A 4K studio quality photo of the Y-shaped split in an ancient mountain path that travels through a forest.
 Use a wide-angle lens, golden hour lighting, and 16:9 aspect. It's mid-summer.
 The forest is a mixture of fir and pine. Wildflowers and wildberries grow in the underbrush.
@@ -276,14 +291,16 @@ The right branch of the split in the path bends right sharply up the hill into a
 generate_image(prompt)
 ```
 
+</details><br>
+
 _If you use a horse, goat or boar and travel light you can complete the journey in half the time. Which raises a fine point, the dwarves really are marvelous in their road building. Their roads connect the upper reaches of the Vales and beyond to Dimrill Dale. Why there's hardly any hoof-wear or mount fatigue reaching the entrance to the road east from Ninglor Crossing. From here the path splits. The high road leads into the valley and Forest Road. It's another day's journey north on the river-bound road, by pony-reckoning, to Greylin Crossing._
 
 ![forest_road_1](ultra/forest_road_1.jpg)
 
+<details>
+<summary>Generate a view of Celduin Crossing</summary>
 
 ```python
-# Generate a view of Celduin Crossing
-
 prompt = """A 4K studio quality photo. Use a wide-angle lens, and 16:9 aspect. It's mid-summer.
 A mountain path travels through a forest into a clearing and across a stone bridge.
 The bridge crosses a deep and wide river.
@@ -304,6 +321,8 @@ The noon-hour sun shines from above-left.
 generate_image(prompt)
 ```
 
+</details><br>
+
 _Two days east by pony, provided you don't get eaten by wild animals, you'll reach Celduin Crossing. This is where the Forest Road exits the Greenwood south of Esgaroth. The bridge is south of Esgaroth-falls where waters from the Forest River and Erebor flow from the long lake. Once, these were lands of the Ents. The Eaves of Neldoreth was where Greenwood Forest met the great beech grove. It grew from across the bridge, to the east, past River Carnen. That was before a shadow fell on the east and the world was changed. Now the Ents lament departing those lands, preferring to tend the land south of the bridge._
 
 ___"A shadow-lingers-where-green-should-grow that the one‑who‑makes‑the‑green‑things‑grow cannot cleanse..."___ _, is their rather cryptic Entish explanation._
@@ -312,10 +331,10 @@ _Few, except the Dwarves, use the bridge nowadays. The path leads north along th
 
 ![forest_road_2](ultra/forest_road_2.jpg)
 
+<details>
+<summary>Generate a map of the region</summary>
 
 ```python
-# Generate a map of the region
-
 map_src = Image.open("docs/src/vales_of_anduin_sketch.jpg")
 
 prompt = """This is a sketch of Vales of Anduin from before S.A 1350. 
@@ -413,6 +432,8 @@ for part in result.candidates[0].content.parts:
         image.save("docs/results/Vales_of_Anduin_Map.png")
 ```
 
+</details><br>
+
 _According a dwarf of dubious sobriety, and a scholarly bard otherwise, the Bay of Belfalas is named thus due to winds created by Anduin Valley. When hot air from the east cools over Ered Mithrin it's funnelled back into the valley from the north. Supposedly it's possible to raft all the way to Bay of Belfalas if you know the river hazards. The only trouble is convincing the Elves to give you a lift home after. Though I'd question the authenticity of this map they left me as proof._
 
 ___"Aye, it's real. Many a song tells of rafting the Vales. Not as many for Celduin where travelling by pony is faster --there's no wind at your back, you see. In any case I'm interested in new tales to sing --to reinvent myself as a bard of great jewel-smiths. Keep it. I've no further use for rafting. Mayhaps it will bring you good fortune as it did once for me..."___
@@ -421,10 +442,10 @@ _It looks more like a scribble on a napkin than a guide to the Great River._
 
 ![map_3](results/Vales_of_Anduin_Map.png)
 
+<details>
+<summary>Generate a view of Dimrill Dale</summary>
 
 ```python
-# Generate a view of Dimrill Dale
-
 prompt = """A 4K studio photo of a peaceful forested dale at the base of a mountain.
 The forest is a mixture of fir and pine. The base of the mountain faces east.
 Use a wide-angle lens, 16:9 aspect and golden hour lighting.
@@ -444,14 +465,16 @@ Be photo-realistic with physically accurate lighting."""
 generate_image(prompt)
 ```
 
+</details><br>
+
 _A bird's eye view of the East-gate into Khazad-dûm in Dimrill Dale. The elves call this place Nanduhirion for the lake, which is said to dim even the light of midday. The Looking-glass Lake, or Mirrormere where you can see your future in the stars of brightest daylight. Or, so the dwarves speak of in tales. Next to the waterfall a mountain pass heads west. Fortunately this is midsummer. In the winter the foot of the mountain pass requires constant snow-removal. Futher east the Mirrormere empties into Sîr Celebrant before confluence with the Great River._
 
 ![dimrill_1](ultra/dimrill_1.jpg)
 
+<details>
+<summary>Generate view of Mirrormere</summary>
 
 ```python
-# Generate view of Mirrormere
-
 prompt = """A 4K studio photo of looking into the waters of a lake.
 Use a wide-angle lens, 16:9 aspect and golden hour lighting.
 The lake is surrounded on all sides by a sheer cliff except opposite the camera is a river.
@@ -467,6 +490,8 @@ The web has stars at major points."""
 
 generate_image(prompt)
 ```
+
+</details><br>
 
 _I once snuck a peek into the Mirrormere while on consignment for the Ents. "A crown that speaks of good fortune", as the dwarves would boast. I'm not sure I would say I saw a crown. Maybe they meant a crown of stars? After all, this season's honey harvest does look certain to be best ever._
 
