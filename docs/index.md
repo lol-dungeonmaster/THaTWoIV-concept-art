@@ -73,6 +73,11 @@ _A bird's eye view of the East-gate into Khazad-dûm in Dimrill Dale. The elves 
 
 ![dimrill_1](ultra/dimrill_1.jpg)
 
+_Those adventurous enough to climb the mountain pass better come prepared. At the top of Dimrill Stair you must pass through the East Redhorn Gate. Which, from the east side is a portcullis and a tunnel with traps. Then you must journey west across dangerous drops and ravines. Watchtowers line the pass west ready to signal an enemy's approach._
+
+![east_redhorn_gate_1](standard/east_redhorn_gate_1.jpg)
+
+
 _I once snuck a peek into the Mirrormere while on consignment for the Ents. "A crown that speaks of good fortune", as the dwarves would boast. I'm not sure I would say I saw a crown. Maybe they meant a crown of stars? After all, this season's honey harvest does look certain to be best ever._
 
 ![mirrormere_1](ultra/mirrormere_1.jpg)
@@ -83,8 +88,8 @@ _Facing east at the foothill of Emyn Muil where it meets NW.Mordor. On the left 
 
 _As if Entish were tricky enough, try asking the Knights of Númenor why they enperil themselves with scouting the uncharted ways south of Khazad-dûm. They arrive wearing only rugged ranger gear, but who else could they be? Scouts at Khazad-dûm say they never return. Rumor is there's a guarded pass in Ephel Dúath to the south. Clearly the Númenóreans are scouting the Nindalf for what an Ent would call, the-usurper. Then they raft their way down the river to the outpost of Tolfalas, never to return. Why they pratically send a new scout, sometimes two, every moon-cycle._
 
-_The Entish legend of the lost grove of Neldoreth begins here in the valley between Emyn Muil and Mordor. It was here the enemy they call, the-shadow, began his campaign in the east. Morgoth, the elves speak of, enjoyed building fortresses and pits of evil in first-age Arda. It was during the Goblin-wars he returned to build one such fortress in Mordor. Subjugating the settlers of Nurn in the process. As Morgoth's strength against the Valar waned later in first-age, he again returned to Mordor. This time subjugating the east with a great legion of orcs, balrogs, and a dragon. They sowed evil-seeds with the intent to disrupt any alliance with the elves.Thus, the great grove came to be poisoned by what the Ents call, a-shadow-lingering, that fell on the east._
+_The Entish legend of the lost grove of Neldoreth begins here in the valley between Emyn Muil and Mordor. It was here the enemy they call, the-shadow, began his campaign in the east. Morgoth, the elves speak of, enjoyed building fortresses and pits of evil in first-age Arda. It was during the Goblin-wars he returned to build one such fortress in Mordor. Subjugating the settlers of Nurn in the process. As Morgoth's strength against the Valar waned later in first-age, he again returned to Mordor. This time subjugating the east with a great legion of orcs, balrogs and a dragon. They sowed evil-seeds with the intent to disrupt an alliance with the elves. Thus, the great grove came to be poisoned by what the Ents call, a-shadow-lingering, that fell on the east._
 
-_It's sometimes said the Nindalf is haunted now by spirits still bound to their oaths to defend the pass. Fireflies keep the willows company in the marshes where a lush forest supposedly once existed long ago._
+_It's sometimes said the Nindalf is haunted by spirits still bound to their oaths to defend the pass. Fireflies keep the willows company in the marshes where a lush forest supposedly once existed long ago._
 
 ![east_nindalf_1](ultra/east_nindalf_1.jpg)
