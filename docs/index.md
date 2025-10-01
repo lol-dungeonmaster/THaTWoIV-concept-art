@@ -67,6 +67,14 @@ _Few, except the Dwarves, use the bridge nowadays. The path leads north along th
 
 ![forest_road_2](ultra/forest_road_2.jpg)
 
+# Region: Dorwinion
+
+_South-west of where River Celduin empties into the Sea of Rhûn in East Dorwinion. Facing north-east. The Port of Dorwinion and it's neighboring vineyards. The River Celduin meets a hilly plateau on it's south shore after confluence with River Carnen. The hills extend south until reaching the woods of Ambaróna. A reclusive wine-producing guild has built extensive vineyards in the area._
+
+_It's a curious place, Dorwinion. The only roads into the port barely count as trails. You'll know you're in the area when the forest becomes hilly valleys and vineyards. Buildings along the hillsides use clay for insulation. It gives them a distinctive golden hue in sunlight. Only here will you meet men, elves and dwarves speaking Sindarin. Tales of the region say it was founded by artisans of Rhûn near the start of the Goblin-Wars. The subjugation of Nurn created divided loyalties in Rhûn, causing some to depart rather than choose. In the isolated valley's of Dorwinion is where they started anew. They eventually impressed the lingering elves with their crafts. The elves taught them their language and named them Dorwinion, the Land of Wines. It's said even Durin II knew of the valley after receiving a cask as a gift from the elves. So enamored was Durin, and without a way to make it himself in the mountain halls, that he had no recourse. He sent his best artisans to Dorwinion to carve deep cellars beneath the hillsides. Production has increased substantially in the years since._
+
+![east_dorwinion_1](standard/east_dorwinion_1.jpg)
+
 # Region: Dimrill Dale
 
 _A bird's eye view of the East-gate into Khazad-dûm in Dimrill Dale. The elves call this place Nanduhirion for the lake, which is said to dim even the light of midday. The Looking-glass Lake, or Mirrormere where you can see your future in the stars of brightest daylight. Or, so the dwarves speak of in tales. Next to the waterfall a mountain pass heads west. Fortunately this is midsummer. In the winter the foot of the mountain pass requires constant snow-removal. Futher east the Mirrormere empties into Sîr Celebrant before confluence with the Great River._
@@ -88,7 +96,7 @@ _Facing east at the foothill of Emyn Muil where it meets NW.Mordor. On the left 
 
 _As if Entish were tricky enough, try asking the Knights of Númenor why they enperil themselves with scouting the uncharted ways south of Khazad-dûm. They arrive wearing only rugged ranger gear, but who else could they be? Scouts at Khazad-dûm say they never return. Rumor is there's a guarded pass in Ephel Dúath to the south. Clearly the Númenóreans are scouting the Nindalf for what an Ent would call, the-usurper. Then they raft their way down the river to the outpost of Tolfalas, never to return. Why they pratically send a new scout, sometimes two, every moon-cycle._
 
-_The Entish legend of the lost grove of Neldoreth begins here in the valley between Emyn Muil and Mordor. It was here the enemy they call, the-shadow, began his campaign in the east. Morgoth, the elves speak of, enjoyed building fortresses and pits of evil in first-age Arda. It was during the Goblin-wars he returned to build one such fortress in Mordor. Subjugating the settlers of Nurn in the process. As Morgoth's strength against the Valar waned later in first-age, he again returned to Mordor. This time subjugating the east with a great legion of orcs, balrogs and a dragon. They sowed evil-seeds with the intent to disrupt an alliance with the elves. Thus, the great grove came to be poisoned by what the Ents call, a-shadow-lingering, that fell on the east._
+_The Entish legend of the lost grove of Neldoreth begins here in the valley between Emyn Muil and Mordor. It was here the enemy they call, the-shadow, began his campaign in the east. Morgoth, the elves speak of, enjoyed building fortresses and pits of evil in first-age Arda. It was during the Goblin-Wars he returned to build one such fortress in Mordor. Subjugating the settlers of Nurn in the process. As Morgoth's strength against the Valar waned later in first-age, he again returned to Mordor. This time subjugating the east with a great legion of orcs, balrogs and a dragon. They sowed evil-seeds with the intent to disrupt an alliance with the elves. Thus, the great grove came to be poisoned by what the Ents call, a-shadow-lingering, that fell on the east._
 
 _It's sometimes said the Nindalf is haunted by spirits still bound to their oaths to defend the pass. Fireflies keep the willows company in the marshes where a lush forest supposedly once existed long ago._
 
