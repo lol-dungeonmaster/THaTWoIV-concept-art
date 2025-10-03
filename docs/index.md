@@ -53,6 +53,12 @@ _Facing north along Great River from confluence with Sîr Ninglor. Greenwood For
 
 ![north_2](ultra/scene_7.jpg)
 
+_A bird's eye view of Eagle's Eyrie, near NW.Homestead. West of the Forest Road's entrance. High on a Misty Mountain ledge._
+
+_Ever enimatic, our neighbors, the Great Eagles of Manwë. Ally to Vales-folk and ever watchful over the High Pass of Misty Mountains. That's what the elves call a hidden pass over the mountain nearby. The eagles scout beyond the foothills of Misty Mountains on both sides. Their keen eyes searching for orcs that raid the northern reaches, or those that may approach from the east. The elves of Lindon and Lindórinand are always eager to know what they've seen._
+
+![eagles_eyrie_1](standard/eagles_eyrie_1.jpg)
+
 # Region: Forest Road
 
 _If you use a horse, goat or boar and travel light you can complete the journey in half the time. Which raises a fine point, the dwarves really are marvelous in their road building. Their roads connect the upper reaches of the Vales and beyond to Dimrill Dale. Why there's hardly any hoof-wear or mount fatigue reaching the entrance to the road east from Ninglor Crossing. From here the path splits. The high road leads into the valley and Forest Road. It's another day's journey north on the river-bound road, by pony-reckoning, to Greylin Crossing._
