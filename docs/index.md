@@ -107,3 +107,15 @@ _The Entish legend of the lost grove of Neldoreth begins here in the valley betw
 _It's sometimes said the Nindalf is haunted by spirits still bound to their oaths to defend the pass. Fireflies keep the willows company in the marshes where a lush forest supposedly once existed long ago._
 
 ![east_nindalf_1](ultra/east_nindalf_1.jpg)
+
+# Region: Anduin Valley
+
+_Facing south-west at E.Tolfalas in the Bay of Belfalas. The Great River and Anduin Valley are behind the camera view._
+
+_First established as a minor fort, the island of Tolfalas has thrived as a second home for the elite and adventurous among the Númenóreans. Now it's a merchant haven with new inhabitants arriving each week. Mainly a mix of kin to military, merchants and the most influential. Most arrive eager to make trophy's of the beasts of Harad. The ones that stay usually cater to the adventurous or exchange of trade goods._
+
+![east_tolfalas_1](ultra/east_tolfalas_1.jpg)
+
+_Facing north-east at W.Tolfalas in the Bay of Belfalas. The Great Sea of Belegaer is behind the camera view._
+
+![west_tolfalas_1](ultra/west_tolfalas_1.jpg)
