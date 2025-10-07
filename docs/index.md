@@ -55,9 +55,11 @@ _Facing north along Great River from confluence with Sîr Ninglor. Greenwood For
 
 _A bird's eye view of Eagle's Eyrie, near NW.Homestead. West of the Forest Road's entrance. High on a Misty Mountain ledge._
 
-_Ever enimatic, our neighbors, the Great Eagles of Manwë. Ally to Vales-folk and ever watchful over the High Pass of Misty Mountains. That's what the elves call a hidden pass over the mountain nearby. The eagles scout beyond the foothills of Misty Mountains on both sides. Their keen eyes searching for orcs that raid the northern reaches, or those that may approach from the east. The elves of Lindon and Lindórinand are always eager to know what they've seen._
+_Ever enimatic, our neighbors, the Great Eagles of Manwë. Always an ally to Vales-folk and watchful over Cirith en Andrath, Pass of the Long Road. That's what the elves call a nearby high-pass over the mountain. The pass connects to the Great Road, travelling west to Lindon. Crafted by the Dwarves of Ered Luin for trade with their Dwarf-kin in Khazad-dûm. It once connected to great elf-kingdoms beyond Lindon before they were ruined. In those days the Dwarves of Khazad-dûm turned their eyes to thier own settlements in the Vales, forsaking their western kin. The road was thus left incomplete, never connecting to the Forest Road due east. These days the pass is used by elf-scouts and dwarf-refugees from the fallen western kingdoms. From high above the pass the eagles scout beyond the foothills of Misty Mountains on both sides. Their keen eyes searching for orcs that raid the northern reaches, or those that may approach from the east. The elves of Lindon and Lindórinand are always eager to learn what they've seen._
 
 ![eagles_eyrie_1](standard/eagles_eyrie_1.jpg)
+
+# Region: Cirith Forn
 
 # Region: Forest Road
 
@@ -112,7 +114,7 @@ _It's sometimes said the Nindalf is haunted by spirits still bound to their oath
 
 _Facing south-west at E.Tolfalas in the Bay of Belfalas. The Great River and Anduin Valley are behind the camera view._
 
-_First established as a minor fort, the island of Tolfalas has thrived as a second home for the elite and adventurous among the Númenóreans. Now it's a merchant haven with new inhabitants arriving each week. Mainly a mix of kin to military, merchants and the most influential. Most arrive eager to make trophy's of the beasts of Harad. The ones that stay usually cater to the adventurous or exchange of trade goods._
+_First established as a minor fort, the island of Tolfalas has thrived as a second home for the elite and adventurous among the Númenóreans. Now it's a merchant haven with new inhabitants arriving each week. Mainly a mix of kin to military, merchants and influential. Most arrive eager to make trophies of the beasts of Harad. Others look to the vast open hills of Anduin Valley as remarkably unstifling compared to Númenór. The ones that stay usually cater to the adventurous or exchange of trade goods._
 
 ![east_tolfalas_1](ultra/east_tolfalas_1.jpg)
 
