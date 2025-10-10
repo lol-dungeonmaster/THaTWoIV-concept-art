@@ -21,15 +21,15 @@ _-- Somewhere in the Vale, where the bee's are blissfully unaware of the adventu
 
 # Region: Lindórinand / Homestead
 
-_Facing south towards Middle Vales from NE.Lindórinand. Greenwood Forest on opposite shore. View of Misty Mountains is hidden by tree-line._
+_Facing south towards Middle Vales from NE.Lindórinand. Greenwood Forest on opposite shore. View of Hithaeglir is hidden by tree-line._
 
 [![](standard/scene_1.jpg)](https://raw.githubusercontent.com/lol-dungeonmaster/THaTWoIV-concept-art/main/docs/results/south_1.mp4)
 
-_Facing north at NW.Lindórinand near the foothill of Misty Mountains and Nîr Linhaith. A water-spirit of Sîr Ninglor dwells nearby. Seldom seen, except by starlight, when she plays flute melodies seemingly in tune with the Elf-bards of Aldalómë._
+_Facing north at NW.Lindórinand near the foothills of Hithaeglir and Nîr Linhaith. A water-spirit of Sîr Ninglor dwells nearby. Seldom seen, except by starlight, when she plays flute melodies seemingly in tune with the Elf-bards of Aldalómë._
 
 ![north_1](standard/scene_2.jpg)
 
-_Facing west at NW.Lindórinand near the foothill of Misty Mountains and Nîr Linhaith. The water spirit didn't always have the flute. Upon meeting our kin for the first time she changed into the form of a river otter. The tale goes that the otter fished up an old sword from the base of Nîr Linhaith. Leaving the sword at the foot of one of our kin, she turned to depart. Having nothing else to offer our kin asked them to accept their most prized possession --a flute they use for animal-taming. They've reportedly been the best of friends since._
+_Facing west at NW.Lindórinand near the foothills of Hithaeglir and Nîr Linhaith. The water spirit didn't always have the flute. Upon meeting our kin for the first time she changed into the form of a river otter. The tale goes that the otter fished up an old sword from the base of Nîr Linhaith. Leaving the sword at the foot of one of our kin, she turned to depart. Having nothing else to offer our kin asked them to accept their most prized possession --a flute they use for animal-taming. They've reportedly been the best of friends since._
 
 ![south_nir_linlaith_1](ultra/south_nir_linlaith_1.jpg)
 
@@ -53,17 +53,23 @@ _Facing north along Great River from confluence with Sîr Ninglor. Greenwood For
 
 ![north_2](ultra/scene_7.jpg)
 
-_A bird's eye view of Eagle's Eyrie, near NW.Homestead. West of the Forest Road's entrance. High on a Misty Mountain ledge._
+_A bird's eye view of Eagle's Eyrie, near NW.Homestead. West of the Forest Road's entrance. High on a Hithaeglir ledge._
 
-_Ever enimatic, our neighbors, the Great Eagles of Manwë. Always an ally to Vales-folk and watchful over Cirith en Andrath, Pass of the Long Road. That's what the elves call a nearby high-pass over the mountain. The pass connects to the Great Road, travelling west to Lindon. Crafted by the Dwarves of Ered Luin for trade with their Dwarf-kin in Khazad-dûm. It once connected to great elf-kingdoms beyond Lindon before they were ruined. In those days the Dwarves of Khazad-dûm turned their eyes to their own settlements in the Vales, forsaking the western kingdoms. The road was thus left incomplete, never connecting to the Forest Road due east. These days the pass is used by elf-scouts and dwarf-refugees from the fallen western kingdoms. Upon cliffs high above the pass the eagles scout beyond the foothills of Misty Mountains on both sides. Their keen eyes searching for orcs that raid the northern reaches, or those that may approach from the east. The elves of Lindon and Lindórinand are always eager to learn what they've seen._
+_Ever enimatic, our neighbors, the Great Eagles of Manwë. Always an ally to Vales-folk and watchful over Cirith en Andrath, Pass of the Long Road. That's what the elves call a nearby high-pass over the mountain. The pass connects to the Great Road, travelling west to Lindon. Crafted by the Dwarves of Ered Luin for trade with their Dwarf-kin in Khazad-dûm. It once connected to great elf-kingdoms beyond Lindon before they were ruined. In those days the Dwarves of Khazad-dûm turned their eyes to their own settlements in the Vales, forsaking the western kingdoms. The road was thus left incomplete, never connecting to the Forest Road due east. These days the pass is used by elf-scouts and dwarf-refugees from the fallen western realms. Upon cliffs high above the pass the eagles scout beyond the foothills of Hithaeglir on both sides. Their keen eyes searching for orcs that raid the northern reaches, or those that may approach from the east. The elves of Lindon and Lindórinand are always eager to learn what they've seen._
 
 ![eagles_eyrie_1](standard/eagles_eyrie_1.jpg)
 
 # Region: Cirith Forn
 
+_Facing north-west near the Gates of Gundabad in E.Cirith Forn. On the left is the north foothills of Hithaeglir. On the right is the west foothills of Ered Mithrin._
+
+_Revered by the Vales' Dwarves, this is where Durin the Deathless awoke before founding Khazad-dûm. Mount Gundabad sits at the center of Cirith Forn, the North Pass, guarding the route south-west. The lands north of the mountain are occupied by orcs who survived the defeat of Morgoth. Skirmishes at the gates have become more frequent, requiring the constant vigil of Gundabad Dwarves. The hardiest of the men of Upper Vales frequent the pass, collecting orc-bounties, doing their part to keep the northern reaches free of orc presence. Together with the help of Eagles and Elves the Vales thrive in peace under the greatest of alliances._
+
+![gundabad_1](ultra/gundabad_1.jpg)
+
 # Region: Forest Road
 
-_If you use a horse, goat or boar and travel light you can complete the journey in half the time. Which raises a fine point, the dwarves really are marvelous in their road building. Their roads connect the upper reaches of the Vales and beyond to Dimrill Dale. Why there's hardly any hoof-wear or mount fatigue reaching the entrance to the road east from Ninglor Crossing. From here the path splits. The high road leads into the valley and Forest Road. It's another day's journey north on the river-bound road, by pony-reckoning, to Greylin Crossing._
+_If you use a horse, goat or boar, and travel light, you can reach the Forest Road in half-a-day. Which raises a fine point, the dwarves really are marvelous in their road building. Their roads connect the upper reaches of the Vales and beyond to Dimrill Dale. Why there's hardly any hoof-wear or mount fatigue reaching the entrance to the road east from Ninglor Crossing. From here the path splits. The high road leads into the valley and Forest Road. It's another day's journey north on the river-bound road, by pony-reckoning, to Greylin Crossing._
 
 ![forest_road_1](ultra/forest_road_1.jpg)
 
@@ -79,7 +85,7 @@ _Few, except the Dwarves, use the bridge nowadays. The path leads north along th
 
 _South-west of where River Celduin empties into the Sea of Rhûn in East Dorwinion. Facing north-east. The Port of Dorwinion and it's neighboring vineyards. The River Celduin meets a hilly plateau on it's south shore after confluence with River Carnen. The hills extend south until reaching the woods of Ambaróna. A reclusive wine-producing guild has built extensive vineyards in the area._
 
-_It's a curious place, Dorwinion. The only roads into the port barely count as trails. You'll know you're in the area when the forest becomes hilly valleys and vineyards. Buildings along the hillsides use clay for insulation. It gives them a distinctive golden hue in sunlight. Only here will you meet men, elves and dwarves speaking Sindarin. Tales of the region say it was founded by artisans of Rhûn near the start of the Goblin-Wars. The subjugation of Nurn created divided loyalties in Rhûn, causing some to depart rather than choose. In the isolated valley's of Dorwinion is where they started anew. They eventually impressed the lingering elves with their crafts. The elves taught them their language and named them Dorwinion, the Land of Wines. It's said even Durin II knew of the valley after receiving a cask as a gift from the elves. So enamored was Durin, and without a way to make it himself in the mountain halls, that he had no recourse. He sent his best artisans to Dorwinion to carve deep cellars beneath the hillsides. Production has increased substantially in the years since._
+_It's a curious place, Dorwinion. The only roads into the port barely count as trails. You'll know you're in the area when the forest becomes hilly valleys and vineyards. Buildings along the hillsides use clay for insulation. It gives them a distinctive golden hue in sunlight. Only here will you meet men, elves and dwarves speaking Sindarin. Tales of the region say it was founded by artisans of Rhûn near the start of the Goblin-Wars. The subjugation of Nurn created divided loyalties in Rhûn, causing some to depart rather than choose. In the isolated valley's of Dorwinion is where they started anew. They eventually impressed the lingering elves with their crafts. The elves taught them their language and named them Dorwinion, the Land of Wines. It's said even Durin II knows-well of the valley after receiving a cask as a gift from the elves. So enamored was Durin, and without a way to make it himself in the mountain halls, that he had no recourse. He sent his best artisans to Dorwinion to carve deep cellars beneath the hillsides. Production has increased substantially in the years since._
 
 ![east_dorwinion_1](standard/east_dorwinion_1.jpg)
 
@@ -114,7 +120,7 @@ _It's sometimes said the Nindalf is haunted by spirits still bound to their oath
 
 _Facing south-west at E.Tolfalas in the Bay of Belfalas. The Great River and Anduin Valley are behind the camera view._
 
-_First established as a minor fort, the island of Tolfalas has thrived as a second home for the elite and adventurous among the Númenóreans. Now it's a merchant haven with new inhabitants arriving each week. Mainly a mix of kin to military, merchants and influential. Most arrive eager to make trophies of the beasts of Harad. Others look to the vast open hills of Anduin Valley as remarkably unstifling compared to Númenór. The ones that stay usually cater to the adventurous or exchange of trade goods._
+_First established as a minor fort, the island of Tolfalas has thrived as a second home for the elite and adventurous among the Númenóreans. Now it's a merchant haven with new inhabitants arriving each week. Mainly a mix of kin to military, merchants and influential. Most arrive eager to make trophies of the beasts of Harad. Others look to the vast open hills of the valley as remarkably unstifling compared to Númenór. The ones that stay usually cater to the adventurous or exchange of trade goods._
 
 ![east_tolfalas_1](ultra/east_tolfalas_1.jpg)
 
