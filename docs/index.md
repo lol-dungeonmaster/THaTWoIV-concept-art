@@ -85,7 +85,7 @@ _Few, except the Dwarves, use the bridge nowadays. The path leads north along th
 
 _Facing south at S.Hithaeglir, north of Ered Goll, the Mountain Hollow (distance). Called such by Elves for the narrow opening between S.Hithaeglir and Ered Nimrais. Sîr Goll flows down the foothills creating seasonal flooding and silt-deposits near the mountain base, where Yew flourish. The river flows south, then west (right) through the Mountain Hollow._
 
-_Far in the west of Aldalómë Forest, the Mountain Hollow is sometimes traversed by Elves who refuse to go over, or under Hithaeglir. It connects realms of the west with the Vales. North of the Mountain Hollow, nestled in a valley at the foothills of Hithaeglir, the Yew-grove is a gatherer's favorite. An unusual landform at the foothill creates ideal conditions for the Yew to grow. Unusual, obviously, in that it looks out of place. Númenórean scouts say being near the landform confuses their way-finding tools. Ents themselves call it a legend that pre-dates created life on Arda. It's said Morgoth, in his pride, intending to enter Arda near its center, only missed his mark due to the Valar's interference. So incensed was Morgoth by the resistance, that he vowed never to forfeit his dominion of Arda._
+_Far in the west of Aldalómë Forest, the Mountain Hollow is sometimes traversed by Elves who refuse to go over, or under Hithaeglir. It connects realms of the west with the Vales. North of the Mountain Hollow, nestled in a valley at the foothills of Hithaeglir, the Yew-grove is a gatherer's favorite. An unusual landform at the foothill creates ideal conditions for the Yew to grow. Unusual, obviously, in that it looks out of place. Númenórean scouts say being near the landform confuses their way-finding tools. Ents themselves call it a legend that pre-dates created life in Arda. It's said Morgoth, in his pride, intending to enter the world at its center, only missed his mark by the Valar's interference. So incensed was Morgoth he vowed henceforth his dominion over Arda would never end._
 
 ![west_aldalómë_forest_1](ultra/west_aldalómë_forest_1.jpg)
 
@@ -135,3 +135,9 @@ _First established as a minor fort, the island of Tolfalas has thrived as a seco
 _Facing north-east at W.Tolfalas in the Bay of Belfalas. The Great Sea of Belegaer is behind the camera view._
 
 ![west_tolfalas_1](ultra/west_tolfalas_1.jpg)
+
+_Facing north along R.Ringló near the south edge of Ered Nimrais._
+
+_Meanwhile north of Tolfalas, in W.Anduin Valley the wild-men look at the Númenórean influx with dismay and suspicion. The reclusive folk inhabit the valleys along the base of Ered Nimrais often using the dark path under R.Morthond to coordinate with clans on the north edge. Their keen eyes keep watch over the Númenórean arrivals across the valley at all hours. Númenórean scouts returning from north already know the nearby woods are lush with ship-building materials. The wild-men of Anduin Valley wonder how much longer they'll be able to keep their hidden, peaceful ways._
+
+![west_anduin_valley_1](ultra/west_anduin_valley_1.jpg)
