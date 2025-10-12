@@ -63,11 +63,11 @@ _Ever enimatic, our neighbors, the Great Eagles of Manwë. Always an ally to Val
 
 _Facing north-west near the Gates of Gundabad in E.Cirith Forn. On the left is the north foothills of Hithaeglir. On the right is the west foothills of Ered Mithrin._
 
-_Revered by the Vales' Dwarves, this is where Durin the Deathless awoke before founding Khazad-dûm. Mount Gundabad sits at the center of Cirith Forn, the North Pass, guarding the route south-west. The lands north of the mountain are occupied by orcs who survived the defeat of Morgoth. Skirmishes at the gates have become more frequent, requiring the constant vigil of Gundabad Dwarves. The hardiest of the men of Upper Vales frequent the pass, collecting orc-bounties, doing their part to keep the northern reaches free of orc presence. Together with the help of Eagles and Elves the Vales thrive in peace under the greatest of alliances._
+_Revered by the Vales' Dwarves, this is where Durin the Deathless awoke before founding Khazad-dûm. Mount Gundabad sits at the center of Cirith Forn, the North Pass, guarding the Vales from the route west. Beyond the Gates of Gundabad, a contested land between ally and foe. To the north-east are lands claimed by the dwarves, and the foundations of a great forge. North-east of Gundabad, remnants of an ancient evil gather. Orcs and Drakes have occupied those lands since the cataclysms of the First Age. Skirmishes at the gates have become more frequent, requiring the constant vigil of Gundabad Dwarves. The hardiest of the men of Upper Vales frequent the pass, collecting bounties, doing their part to keep the northern reaches free of evil presence. Together with the help of Eagles and Elves the Vales thrive in peace under the greatest of alliances._
 
 ![gundabad_1](ultra/gundabad_1.jpg)
 
-# Region: Forest Road
+# Region: Greenwood Forest
 
 _If you use a horse, goat or boar, and travel light, you can reach the Forest Road in half-a-day. Which raises a fine point, the dwarves really are marvelous in their road building. Their roads connect the upper reaches of the Vales and beyond to Dimrill Dale. Why there's hardly any hoof-wear or mount fatigue reaching the entrance to the road east from Ninglor Crossing. From here the path splits. The high road leads into the valley and Forest Road. It's another day's journey north on the river-bound road, by pony-reckoning, to Greylin Crossing._
 
@@ -80,6 +80,14 @@ ___"A shadow-lingers-where-green-should-grow that the one‑who‑makes‑the‑
 _Few, except the Dwarves, use the bridge nowadays. The path leads north along the west side of Esgaroth to their outpost, Erebor. Across the bridge leads north-east to their outpost in Iron Hills. Elves will sometimes traverse the Forest Road then follow the river south-east to Dorwinion. Not to taste the artisan wines, they'll say, so much as the pilgrimage to visit relatives. East-folk from Rhûn occasionally follow River Celduin or Carnen upstream. Those few that reach the Vales are oft-greeted with suspicion by wary Upper Vales-folk._
 
 ![forest_road_2](ultra/forest_road_2.jpg)
+
+# Region: Aldalómë Forest
+
+_Facing south at S.Hithaeglir, north of Ered Goll, the Mountain Hollow (distance). Called such by Elves for the narrow opening between S.Hithaeglir and Ered Nimrais. Sîr Goll flows down the foothills creating seasonal flooding and silt-deposits near the mountain base, where Yew flourish. The river flows south, then west (right) through the Mountain Hollow._
+
+_Far in the west of Aldalómë Forest, the Mountain Hollow is sometimes traversed by Elves who refuse to go over, or under Hithaeglir. It connects realms of the west with the Vales. North of the Mountain Hollow, nestled in a valley at the foothills of Hithaeglir, the Yew-grove is a gatherer's favorite. An unusual landform at the foothill creates ideal conditions for the Yew to grow. Unusual, obviously, in that it looks out of place. Númenórean scouts say being near the landform confuses their way-finding tools. Ents themselves call it a legend that pre-dates created life on Arda. It's said Morgoth, in his pride, intending to enter Arda near its center, only missed his mark due to the Valar's interference. So incensed was Morgoth by the resistance, that he vowed never to forfeit his dominion of Arda._
+
+![west_aldalómë_forest_1](ultra/west_aldalómë_forest_1.jpg)
 
 # Region: Dorwinion
 
