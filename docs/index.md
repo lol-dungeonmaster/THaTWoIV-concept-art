@@ -11,7 +11,7 @@ ___"Aye, it's real. Many a song tells of rafting the Vales. Not as many for Celd
 
 _It looks more like a scribble on a napkin than a guide to the Great River._
 
-![map_3](results/Vales_of_Anduin_Map.png)
+![map_3](results/Vales_of_Anduin_Map_3.png)
 
 # At this rate the harvest was shaping up to be the bees knees...
 
