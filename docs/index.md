@@ -138,6 +138,6 @@ _Facing north-east at W.Tolfalas in the Bay of Belfalas. The Great Sea of Belega
 
 _Facing north along R.Ringló near the south edge of Ered Nimrais._
 
-_Meanwhile north of Tolfalas, in W.Anduin Valley the wild-men look at the Númenórean influx with dismay and suspicion. The reclusive folk inhabit the valleys along the base of Ered Nimrais often using the dark paths under Morthond-falls to coordinate with clans on the north-side. Their keen eyes keep watch over the Númenórean arrivals across the valley at all hours. Númenórean scouts returning from north already know the nearby woods are lush with ship-building materials. The wild-men of Anduin Valley wonder how much longer they'll be able to keep their hidden, peaceful ways._
+_Meanwhile north of Tolfalas, in W.Anduin Valley the wild-men look at the Númenórean influx with dismay and suspicion. The reclusive folk inhabit the valleys along the base of Ered Nimrais often using the dark paths under Morthond-falls to meet with clans on the north-side. Their keen eyes keep watch over the Númenórean arrivals across the valley at all hours. Númenórean scouts returning from north already know the nearby woods are lush with ship-building materials. The wild-men of Anduin Valley wonder how much longer they'll be able to keep their hidden, peaceful ways._
 
 ![west_anduin_valley_1](ultra/west_anduin_valley_1.jpg)
