@@ -148,4 +148,8 @@ _Far in the west on the island of Tol Eressëa, in lands of never-ending summer.
 
 _Vairë makes herself comfortable and begins weaving a new tapestry. While Mandos watches for an arrival. This may take some time._
 
+<<<<<<< HEAD
 ![tol_eressëa_1](docs/ultra/tol_eressëa_1.jpg)
+=======
+![tol_eressëa_1](ultra/tol_eressëa_1.jpg)
+>>>>>>> 67a5438 (tol eressëa)
