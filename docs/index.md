@@ -144,8 +144,10 @@ _Meanwhile north of Tolfalas, in W.Anduin Valley the wild-men look at the Númen
 
 # Region: Uttermost West
 
-_Far in the west on the island of Tol Eressëa, in lands of never-ending summer._
+_Once before time, and this tale begins, the Author of the Great Tale, Eru Ilúvatar, conceived that his story should be sung into existence. Giving form to his thoughts he created the Ainur and taught them to sing in harmony. Then, Eru, bestowed upon the Ainur his vision for the Universe. Speaking the words, let it be, he tasked them with shaping the Great Tale. Thus, there came to be the void and creation in Arda._
 
-_Vairë makes herself comfortable and begins weaving a new tapestry. While Mandos watches for an arrival. This may take some time._
+_However, Eru, had not revealed his entire plan to the Ainur when they began. For he had longed for another voice to join in singing the Great Tale. The Children of Ilúvatar were to be given free will in choosing the ending, and the gift to transcend it's design. While the Ainur could sing the stories of Arda, it's endings would remain the purview of his Children. Thus, there came to be a Great Tapestry and none but Eru know it's completed form._
+
+_Far in the west on the island of Tol Eressëa, in lands of never-ending summer. The Straight Road leads those with permission past the island on ships destined for the shores of Eldamar. This is a story about a song the Ainur made. Though not the Ainur's part, mind you, but the part they didn't expect. Here on Tol Eressëa's shores, Vairë the Weaver, makes herself comfortable and begins a new tapestry. Not even she knows it's design. Meanwhile Námo, Master of Spirits, sets up camp to maintain the pretense of their current form. Then he begins watching the weave unfold. There's been a subtle change in the Music that they're both keenly receptive to. Soon a ship will pass bearing a song's refrain._
 
 ![tol_eressëa_1](ultra/tol_eressëa_1.jpg)
