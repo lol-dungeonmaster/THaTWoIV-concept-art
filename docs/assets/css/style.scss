@@ -13,3 +13,19 @@
 :root {
     --md-text-font: "Middle-Earth";
 }
+
+body {
+    font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+}
+
+header h1 {
+    font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+}
+
+.btn {
+    font-family: Helvetica, Arial, sans-serif;
+}
