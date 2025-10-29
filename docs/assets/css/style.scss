@@ -1,0 +1,15 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+@font-face {
+    font-family: "Middle-Earth";
+    font-weight: normal;
+    font-style: normal;
+    src: url("../fonts/MiddleEarth_PERSONAL_USE_ONLY.otf");
+}
+
+:root {
+    --md-text-font: "Middle-Earth"
+}
