@@ -10,16 +10,15 @@
   src: url("../fonts/MiddleEarth_PERSONAL_USE_ONLY.otf");
 }
 
-:root {
-  --md-text-font: "Middle-Earth";
-}
-
 header {
   border-bottom: 1px dashed #d2ccc2;
 }
 
 body {
+  color: #fff7f3;
   background: #191a3b;
+  font-size: 20px;
+  letter-spacing: -0.02em;
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
 }
 
