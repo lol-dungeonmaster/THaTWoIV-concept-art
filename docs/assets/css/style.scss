@@ -14,6 +14,10 @@
     --md-text-font: "Middle-Earth";
 }
 
+header {
+    border-bottom: 1px dashed #d2ccc2;
+}
+
 body {
     background: #191a3b;
     font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
@@ -25,6 +29,7 @@ header h1 {
 }
 
 header h2 {
+    color: #888;
     font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
 }
 
