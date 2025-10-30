@@ -34,7 +34,14 @@ header h2 {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+    color: #d2ccc2;
+    font-weight: bolder;
+    letter-spacing: -0.01em;
+    font-family: "Middle-Earth", Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+}
+
+h1 {
+    font-size: 37px;
 }
 
 .btn {
