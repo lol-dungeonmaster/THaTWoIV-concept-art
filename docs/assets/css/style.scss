@@ -4,40 +4,66 @@
 @import "{{ site.theme }}";
 
 @font-face {
-    font-family: "Middle-Earth";
-    font-weight: normal;
-    font-style: normal;
-    src: url("../fonts/MiddleEarth_PERSONAL_USE_ONLY.otf");
+  font-family: "Middle-Earth";
+  font-weight: normal;
+  font-style: normal;
+  src: url("../fonts/MiddleEarth_PERSONAL_USE_ONLY.otf");
 }
 
 :root {
-    --md-text-font: "Middle-Earth";
+  --md-text-font: "Middle-Earth";
 }
 
 header {
-    border-bottom: 1px dashed #d2ccc2;
+  border-bottom: 1px dashed #d2ccc2;
 }
 
 body {
-    background: #191a3b;
-    font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  background: #191a3b;
+  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
 }
 
 header h1 {
-    color: #d2ccc2;
-    font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  color: #d2ccc2;
+  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
 }
 
 header h2 {
-    color: #888;
-    font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  color: #888;
+  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: #d2ccc2;
-    font-weight: bolder;
-    letter-spacing: -0.01em;
-    font-family: "Middle-Earth", Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  color: #d2ccc2;
+  font-weight: bolder;
+  letter-spacing: -0.01em;
+  font-family: "Middle-Earth", Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+}
+
+.wrapper {
+  display: flex;
+  min-height: 100vh;
+}
+
+.main-nav {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  align-self: flex-start;
+  height: fit-content;
+}
+
+.main-nav ul {
+  list-style: none;
+}
+
+.main-nav li a {
+  display: block;
+}
+
+#main_content {
+  flex: 1;
+  padding: 2rem;
 }
 
 #main_content h1 {
@@ -69,20 +95,20 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 0 5px 0;
 }
 
+#main_content section {
+  margin-bottom: 3rem;
+}
+
 .btn {
-    font-family: Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
 }
 
-.main-nav {
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-}
-
-.main-nav ul {
-  display: flex;
-}
-
-.main-nav li a {
-  display: block;
+@media (max-width: 768px) {
+  .wrapper {
+    flex-direction: column;
+  }
+  .main-nav {
+    width: 100%;
+    position: static;
+  }
 }
