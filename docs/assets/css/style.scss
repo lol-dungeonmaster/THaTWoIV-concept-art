@@ -12,6 +12,7 @@
 
 header {
   border-bottom: 1px dashed #d2ccc2;
+  margin: 0 0 0 0;
 }
 
 body {
@@ -45,25 +46,33 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .main-nav {
-  width: 240px;
   background: rgba(0, 0, 0, 0.1);
-  padding-top: 1rem;
   position: sticky;
   top: 0;
   z-index: 1000;
   align-self: flex-start;
-  height: fit-content;
+  height: 100vh;
+  border-right: 1px dashed #d2ccc2;
+  border-bottom: 1px dashed #d2ccc2;
 }
 
 .main-nav ul {
   list-style: none;
+  font-weight: bolder;
+  font-family: "Middle-Earth", Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  font-size: 25px;
+}
+
+.main-nav ul li {
+  list-style-image: none;
 }
 
 .main-nav li a {
   display: block;
-  padding: 0.75rem 1.2rem;
+  padding: 0.5rem 2.4rem 0.75rem 0rem;
   color: inherit;
   text-decoration: none;
+  text-shadow: none;
   transition: background 0.2s;
 }
 
@@ -120,5 +129,6 @@ h1, h2, h3, h4, h5, h6 {
   .main-nav {
     width: 100%;
     position: static;
+    height: fit-content;
   }
 }
