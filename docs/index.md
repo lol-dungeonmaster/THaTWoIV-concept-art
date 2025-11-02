@@ -1,6 +1,3 @@
----
-layout: thatwoiv
----
 
 # The bee's are particularly busy this time of year...
 
