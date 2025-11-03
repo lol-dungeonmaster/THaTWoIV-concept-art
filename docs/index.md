@@ -497,7 +497,7 @@ Be photo-realistic with physically accurate lighting.</span><span class="sh">"""
 </code></pre></div>
 </div>
 
-_A bird's eye view looking north-west in W.Dimrill Dale. Nearby is the East-gate into Khazad-dûm. The base of Dimrill Stairs (distant) leads to E.Redhorn Gate._ 
+_A bird's eye view looking north-west in W.Dimrill Dale. Nearby is the East-gate into Khazad-dûm. The base of Dimrill Stair (distant) leads to E.Redhorn Gate._ 
 
 The elves call this place Nanduhirion for the lake, which is said to dim even the light of midday. The Looking-glass Lake, or Mirrormere where you can see your future in the stars of brightest daylight. Or, so the dwarves speak of in tales. Next to the waterfall a mountain pass heads west. Fortunately this is midsummer. In the winter the foot of the mountain pass requires constant snow-removal. Futher east the Mirrormere empties into Sîr Celebrant before confluence with the Great River.
 
