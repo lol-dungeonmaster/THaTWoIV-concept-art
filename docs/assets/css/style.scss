@@ -160,8 +160,9 @@ pre {
 }
 
 .collapsible-code button {
-  background: #d2ccc2;
-  border: 1px solid #d0d7de;
+  color: #d2ccc2;
+  background: rgba(0, 0, 0, 0.1);
+  border: 1px solid #d2ccc2;
   border-radius: 4px;
   padding: 4px 8px;
   font-family: inherit;
@@ -170,6 +171,11 @@ pre {
 
 .collapsible-code button::after {
   content: " ▶";
+}
+
+.collapsible-code button.expanded {
+  color: rgba(0, 0, 0);
+  background: #d2ccc2;
 }
 
 .collapsible-code button.expanded::after {
