@@ -144,13 +144,19 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+.collapsible-code {
+  padding-bottom: 1rem; 
+}
+
 .collapsible-code pre {
   display: none;
   margin: 0;
+  background: rgba(0, 0, 0, 0.1);
+  color: #d2ccc2;
 }
 
 .collapsible-code button {
-  background: #f6f8fa;
+  background: #d2ccc2;
   border: 1px solid #d0d7de;
   border-radius: 4px;
   padding: 4px 8px;
