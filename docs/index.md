@@ -1,7 +1,3 @@
----
-layout: thatwoiv
-show_downloads: false
----
 
 <div class="collapsible-code">
 <button type="button">Setup the environment</button>
