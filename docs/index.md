@@ -169,17 +169,9 @@ _-- Somewhere in the Vale, where the bee's are blissfully unaware of the adventu
 
 # Region: Lindórinand / Homestead
 
-```python
-south_1 = Image.open("docs/standard/scene_1.jpg")
-```
-
 _Facing south towards Middle Vales from NE.Lindórinand. Greenwood Forest on opposite shore. View of Hithaeglir is hidden by tree-line._
 
 [![](standard/scene_1.jpg)](results/south_1.mp4)
-
-```python
-north_1 = Image.open("docs/standard/scene_2.jpg")
-```
 
 _Facing north at NW.Lindórinand near the foothills of Hithaeglir and Nîr Linhaith._ A water-spirit of Sîr Ninglor dwells nearby. Seldom seen, except by starlight, when she plays flute melodies seemingly in tune with the Elf-bards of Aldalómë.
 
@@ -209,10 +201,6 @@ The gold-colored fireflies are scattered near the water and under the trees.</sp
 _Facing west at NW.Lindórinand near the foothills of Hithaeglir and Nîr Linhaith._ The water spirit didn't always have the flute. Upon meeting our kin for the first time she changed into the form of a river otter. The tale goes that the otter fished up an old sword from the base of Nîr Linhaith. Leaving the sword at the foot of one of our kin, she turned to depart. Having nothing else to offer our kin asked them to accept their most prized possession --a flute they use for animal-taming. They've reportedly been the best of friends since.
 
 ![south_nir_linlaith_1](ultra/south_nir_linlaith_1.jpg)
-
-```python
-south_2 = Image.open("docs/standard/scene_4.jpg")
-```
 
 _Facing south at the entrance to Middle Vales from SE.Lindórinand. Greenwood Forest is opposite shore._ Here is where Lindórinand becomes Eaves of Fangorn or Aldalómë as it's known by Ents. By starlight you can hear songs of the Elves echoing over the far tree-line. Their minstrels are said to gather for nightly contest along Sîr Limlaith.
 
@@ -275,7 +263,6 @@ _Facing east along Sîr Ninglor towards confluence with the Great River __(origi
 
 [![](ultra/scene_1.jpg)](results/east_3.mp4)
 
-
 <div class="collapsible-code">
 <button type="button">Generate north facing view</button>
 <div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="c1"># Update imagen prompt for north facing view
@@ -293,10 +280,6 @@ With the sun on the right side.</span><span class="sh">"""</span>
 <span class="nf">generate_image</span><span class="p">(</span><span class="n">prompt</span><span class="p">)</span>
 </code></pre></div>
 </div>
-
-```python
-north_2 = Image.open("docs/ultra/scene_7.jpg")
-```
 
 _Facing north along Great River from confluence with Sîr Ninglor. Greenwood Forest and the Forest Road on the opposite shore. The road continues north for another day's journey before turning east. The absence of marshes is a deliberate device in this version of the legendarium._
 
