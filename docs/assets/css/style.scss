@@ -13,7 +13,9 @@
 header {
   border-bottom: 1px dashed #d2ccc2;
   margin: 0 0 0 0;
-  padding: 20px 2rem 0rem 0rem;
+  padding: 20px 2rem 0rem 2rem;
+  width: 100%;
+  margin: 0 auto;
 }
 
 body {
@@ -22,7 +24,6 @@ body {
   font-size: 20px;
   letter-spacing: -0.02em;
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
-  padding: 0rem 2rem 0rem 0rem;
 }
 
 header h1 {
@@ -45,10 +46,10 @@ h1, h2, h3, h4, h5, h6 {
 .wrapper {
   display: flex;
   min-height: 100vh;
-  padding: 0rem 2rem 0rem 0rem;
 }
 
 .main-nav {
+  flex: 0 1 auto;
   background: rgba(0, 0, 0, 0.1);
   position: sticky;
   top: 0;
@@ -58,6 +59,7 @@ h1, h2, h3, h4, h5, h6 {
   border-right: 1px dashed #d2ccc2;
   border-bottom: 1px dashed #d2ccc2;
   overflow-y: auto;
+  min-width: min-content;
 }
 
 .main-nav ul {
@@ -83,11 +85,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .main-nav li a:hover {
   text-shadow: 0 0 5px rgba(104,182,255,0.5);
-}
-
-#main_content {
-  flex: 1;
-  padding: 2rem;
 }
 
 #main_content h1 {
@@ -119,33 +116,35 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 0 5px 0;
 }
 
-#main_content section {
-  margin-bottom: 3rem;
-}
-
 #main_content section img {
   width: 100vw;
-  max-width: 100%;
   height: auto;
+}
+
+.wrapper .container {
+  flex: 1 4 auto;
+  width: 60%;
+  padding: 2rem 3rem 3rem 3rem;
+}
+
+body .container {
+  width: 100%;
+  max-width: 100%;
+  margin: inherit;
+}
+
+header .container {
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 .btn {
   font-family: Helvetica, Arial, sans-serif;
 }
 
-@media (max-width: 768px) {
-  .wrapper {
-    flex-direction: column;
-  }
-  .main-nav {
-    width: 100vw;
-    position: static;
-    height: fit-content;
-  }
-}
-
 pre {
   background: rgba(0, 0, 0, 0.1);
+  overflow-x: auto;
 }
 
 .collapsible-code {
@@ -180,4 +179,18 @@ pre {
 
 .collapsible-code button.expanded::after {
   content: " ▼";
+}
+
+@media (max-width: 768px) {
+  .wrapper {
+    flex-direction: column;
+  }
+  .wrapper .container {
+    width: 85%;
+  }
+  .main-nav {
+    width: 100vw;
+    position: static;
+    height: fit-content;
+  }
 }
