@@ -233,7 +233,7 @@ Start further away from the beehive.</span><span class="sh">"""</span>
 <span class="n">result</span> <span class="o">=</span> <span class="n">client</span><span class="p">.</span><span class="n">models</span><span class="p">.</span><span class="nf">generate_content</span><span class="p">(</span>
     <span class="n">model</span><span class="o">=</span><span class="sh">"</span><span class="s">gemini-2.5-flash-image-preview</span><span class="sh">"</span><span class="p">,</span>
     <span class="n">contents</span><span class="o">=</span><span class="p">[</span>
-        <span class="sh">"""</span><span class="s">Add thin clounds to the peaks of only the two mountains the distance. Use studio quality and 16:9 aspect.</span><span class="sh">"""</span><span class="p">,</span> 
+        <span class="sh">"""</span><span class="s">Add thin clouds to the peaks of only the two mountains the distance. Use studio quality and 16:9 aspect.</span><span class="sh">"""</span><span class="p">,</span> 
         <span class="n">client</span><span class="p">.</span><span class="n">files</span><span class="p">.</span><span class="nf">upload</span><span class="p">(</span><span class="nb">file</span><span class="o">=</span><span class="sh">"</span><span class="s">docs/ultra/scene_1.jpg</span><span class="sh">"</span><span class="p">)]</span>
 <span class="p">)</span>
 
