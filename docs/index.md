@@ -44,7 +44,7 @@
 
 <h1>The bee's are particularly busy this time of year...</h1>
 
-<p>The little critters are often too busy to notice the comings and goings of their keepers. Especially when completed at the right time -- before 2nd Breakfast. Well then it's hardly a chore what with them off tending to the blooming mouse-leaf.</p>
+<p>Nestled near the footsteps of Hithaeglir the hobbits of Homestead have honed the skill of being unnoticed. Usually this means advantageous use of our small stature. Though that’s hardly required in the Upper Vales. Oddly enough, none of us can rightly say what brought us to Homestead. That’s on account of having lost the tales during the journey. What little we do know is kept by our elders. Even by their account, the Vales of Anduin have always been peaceful. When a great cataclysm ended the last age, only in the Vales did life remain unchanged. Just like the bee’s that enjoy the flourishing wildflowers, the Vales became a refuge for many. So by most Vales-folks reckoning the Homestead-hobbits have always been here. Practiced in many skills and trades, only the curious and adventurous among hobbits chooses to become a Ranger. Among the myriad of demands being to travel many roads and the upkeep of nearby beehives. It’s a pleasant life with the little critters too busy to notice the comings and goings of their keepers. Especially when completed at the right time – before 2nd breakfast. Well then it’s hardly a chore with them off tending the crops and blooming mouse-leaf.</p>
 
 <div class="collapsible-code">
 <button type="button">Generate base images</button>
