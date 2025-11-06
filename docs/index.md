@@ -159,7 +159,7 @@ Draw all options on a single sheet.</span><span class="sh">"""</span>
 
 <p><a href="results/south_1.mp4"><img src="standard/scene_1.jpg" alt="scene_1"></a></p>
 
-<p><em>Facing north at NW.Lindórinand near the foothills of Hithaeglir and Nîr Linhaith.</em> A water-spirit of Sîr Ninglor dwells nearby. Seldom seen, except by starlight, when she plays flute melodies seemingly in tune with the Elf-bards of Aldalómë.</p>
+<p><em>Facing north at NW.Lindórinand near the foothills of Hithaeglir and Nîr Linhaith.</em> A water-spirit of Sîr Ninglor dwells nearby.</p>
 
 <p><img src="standard/scene_2.jpg" alt="north_1"></p>
 
@@ -184,7 +184,11 @@ The gold-colored fireflies are scattered near the water and under the trees.</sp
 </code></pre></div>
 </div>
 
-<p><em>Facing west at NW.Lindórinand near the foothills of Hithaeglir and Nîr Linhaith.</em> The water spirit didn't always have the flute. Upon meeting our kin for the first time she changed into the form of a river otter. The tale goes that the otter fished up an old sword from the base of Nîr Linhaith. Leaving the sword at the foot of one of our kin, she turned to depart. Having nothing else to offer our kin asked them to accept their most prized possession --a flute they use for animal-taming. They've reportedly been the best of friends since.</p>
+<p><em>Facing west at NW.Lindórinand near the foothills of Hithaeglir and Nîr Linhaith.</em></p>
+
+<p>Seldom seen, except by starlight, the water-spirit plays flute melodies in tune with the Elf-bards of Aldalómë. The water-spirit didn't always have the flute. Elder-tales say upon meeting our kin for the first time she changed into the form of a river otter. The otter fished up an old sword from the base of Nîr Linhaith. Leaving the sword at the foot of our kin, she turned to depart. Confused and having nothing else to offer our kin asked them to accept their most prized possession –– a flute used for animal-taming. They've reportedly been friend to Homestead-hobbits since.
+
+The sword became a symbol of that kinship for it was too big for any hobbit to wield. The water-spirit says it was once lost high upon Hithaeglir. Until the upheavals marking the end of last age caused it to tumble over the falls here. Adorned simply with dwarf-runes about its’ scabbard and lighter than it appears, though fit for any noble of the Edain. Homestead-folktale sometimes jokingly affirms immortality to the dwarf-runes due to the affect on elder-council initiates.</p>
 
 <p><img src="ultra/south_nir_linlaith_1.jpg" alt="south_nir_linlaith_1"></p>
 
