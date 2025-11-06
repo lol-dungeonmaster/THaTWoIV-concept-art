@@ -44,7 +44,7 @@
 
 <h1>The bee's are particularly busy this time of year...</h1>
 
-<p>Nestled near the footsteps of Hithaeglir the hobbits of Homestead have honed the skill of being unnoticed. Usually this means advantageous use of our small stature. Though that’s hardly required in the Upper Vales. Oddly enough, none of us can rightly say what brought us to Homestead. That’s on account of having lost the tales during the journey. What little we do know is kept by our elders. Even by their account, the Vales of Anduin have always been peaceful. When a great cataclysm ended the last age, only in the Vales did life remain unchanged. Just like the bee’s that enjoy the flourishing wildflowers, the Vales became a refuge for many. So by most Vales-folks reckoning the Homestead-hobbits have always been here. Practiced in many skills and trades, only the curious and adventurous among hobbits chooses to become a Ranger. Among the myriad of demands being to travel many roads and the upkeep of nearby beehives. It’s a pleasant life with the little critters too busy to notice the comings and goings of their keepers. Especially when completed at the right time – before 2nd breakfast. Well then it’s hardly a chore with them off tending the crops and blooming mouse-leaf.</p>
+<p>Nestled near the footsteps of Hithaeglir the hobbits of Homestead have honed the skill of being unnoticed. Usually this means advantageous use of our small stature. Though that’s hardly required in the Upper Vales. Oddly enough, none of us can rightly say what brought us to Homestead. That’s on account of having lost the tales during the journey. What little we do know is kept by our elders. Even by their account, the Vales of Anduin have always been peaceful. When a great cataclysm ended the last age, only in the Vales did life remain unchanged. Just like the bee’s that enjoy the flourishing wildflowers, the Vales became a refuge for many. So by most Vales-folks reckoning the Homestead-hobbits have always been here. Practiced in many skills and trades, only the curious <strong>and</strong> adventurous among hobbits chooses to become a Ranger. Among the myriad of demands being to travel many roads and the upkeep of nearby beehives. It’s a pleasant life with the little critters too busy to notice the comings and goings of their keepers. Especially when completed at the right time –– before 2nd breakfast. Well then it’s hardly a chore with them off tending the crops and blooming mouse-leaf.</p>
 
 <div class="collapsible-code">
 <button type="button">Generate base images</button>
@@ -112,19 +112,19 @@ Draw all options on a single sheet.</span><span class="sh">"""</span>
 </code></pre></div>
 </div>
 
-<p>According a dwarf of dubious sobriety, and a scholarly bard otherwise, the Bay of Belfalas is named thus due to winds created by Anduin Valley. When hot air from the east cools over Ered Mithrin it's funnelled back into the valley from the north. Supposedly it's possible to raft all the way to Bay of Belfalas if you know the river hazards. The only trouble is convincing the Elves to give you a lift home after. Though I'd question the authenticity of this map they left me as proof.</p>
+<p>According a dwarf of dubious sobriety, and a scholarly bard otherwise, the Bay of Belfalas is named thus due to winds created by Anduin Valley. When hot air from the east cools over Ered Mithrin it's funnelled back into the valley from the north. Supposedly it's possible to raft all the way to Bay of Belfalas if you know the river hazards. The only trouble is convincing the Edhellond elves to give you a lift home after. Though I'd question the authenticity of this map they left me as proof.</p>
 
-<p><strong><em>"Aye, it's real. Many a song tells of rafting the Vales. Not as many for Celduin where travelling by pony is faster --there's no wind at your back, you see. In any case I'm interested in new tales to sing --to reinvent myself as a bard of great jewel-smiths. Keep it. I've no further use for rafting. Mayhaps it will bring you good fortune as it did once for me..."</em></strong></p>
+<p><em><strong>"Aye, it's real. Many a song tells of rafting the Vales. Not as many for Celduin where travelling by pony is faster –– there's no wind at your back, you see. In any case I'm interested in new tales to sing –– to reinvent myself as a bard of great jewel-smiths. Keep it. I've no further use for rafting. Mayhaps it will bring you good fortune as it did once for me..."</strong> –– H</em></p>
 
 <p>It looks more like a scribble on a napkin than a guide to the Great River.</p>
 
 <p><img src="results/Vales_of_Anduin_Map_3.png" alt="map_3"></p>
 
-<h1>At this rate the harvest was shaping up to be the bees knees...</h1>
+<h1>At this rate the harvest is shaping up to be the bees knees...</h1>
 
-<p>The men of Upper Vales will often travel a day's journey, crossing the Great River by way of the North Bridge. All for one of their best delicacies -- Honey Ale. Rumor is the expert Woodsmen are unwilling to use the sturdier Dwarvish Bridge to the South. Something about their crafts being unwelcome in those parts. Why even the nearby Greenwood Elves have been known to drop by on their way to Dimrill Dale. Though the Elves have never been willing to share what they use the honey for. They always look amused and say quite plainly they'll eat it -- several barrel's that is.</p>
+<p>The men of Upper Vales will often travel a day's journey, crossing the Great River by way of the North Bridge. All for one of their best delicacies –– Honey Ale. Rumor is the expert woodsmen are unwilling to use the sturdier dwarf-bridge to the south. Something about their crafts and expansionist views being <em>“too-unlike-wild-men”</em> to allow so close to Ent-land. Why even the nearby Greenwood elves have been known to drop by on their way to Dimrill Dale. Though the elves have never been willing to share what they use the honey for. They always look amused and say quite plainly they'll eat it –– several barrel's that is.</p>
 
-<p><em>-- Somewhere in the Vale, where the bee's are blissfully unaware of the adventure this day will bring.</em></p>
+<p><em>–– Somewhere in the Vale, where the bee's are blissfully unaware of the adventure this day will bring.</em></p>
 
 <div class="collapsible-code">
 <button type="button">Generate from base images</button>
