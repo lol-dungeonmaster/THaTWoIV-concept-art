@@ -1,6 +1,16 @@
 <div class="wrapper">
 {% include nav.html %}
 <div class="container">
+<p>Once upon a Time, a voice spoke from past the Walls of the World. Echoing from the firmament to the abyss, saying:</p>
+
+<p><em>&nbsp;&nbsp;&nbsp;All have past and gone,</em><br />
+<em>&nbsp;&nbsp;&nbsp;and the universe is old and faded.</em><br />
+<em>&nbsp;&nbsp;&nbsp;But, alas, they are treasures that memory has collected,</em><br />
+<em>&nbsp;&nbsp;&nbsp;and wretched are all tongues held within the burden of departing spirits.</em></p>
+
+<p>Then the door of day and night began to close. With this the voice spoke once more:</p>
+
+<p><em>&nbsp;&nbsp;&nbsp;Let them instead be solemn…</em></p><br />
 <div class="collapsible-code">
 <button type="button">Setup the environment</button>
 <div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="c1"># Setup the environment
