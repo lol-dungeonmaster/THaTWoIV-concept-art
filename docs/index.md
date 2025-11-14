@@ -8,9 +8,9 @@
 <em>&nbsp;&nbsp;&nbsp;But, alas, they are treasures that memory has collected,</em><br />
 <em>&nbsp;&nbsp;&nbsp;and wretched are all tongues held within the burden of departing spirits.</em></p>
 
-<p>Then the door of day and night began to close. With this the voice spoke once more:</p>
+<p>Then the doors of day and night began to close. With this the voice spoke once more:</p>
 
-<p><em>&nbsp;&nbsp;&nbsp;Let them instead be solemn…</em></p><br />
+<p><em>&nbsp;&nbsp;&nbsp;Let their tongues instead be solemn.</em></p><br />
 <div class="collapsible-code">
 <button type="button">Setup the environment</button>
 <div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="c1"># Setup the environment
@@ -55,7 +55,7 @@
 
 <h1>The bee's are particularly busy this time of year...</h1>
 
-<p>Nestled near the footsteps of Hithaeglir the hobbits of Homestead have honed the skill of going unnoticed. Usually this means advantageous use of our small stature. It is, after-all, best to let big-folk sort their own problems. Though that’s hardly required here in the Upper Vales. Why, I suppose there's nary a locked door in the whole Vale. Except maybe in the northern reaches where dire-bears are said to roam. It supposedly helps because bears lack opposable-thumbs. Oddly enough, none of us can rightly say what brought hobbits to Homestead. That’s on account of having lost the tales during the journey. What little we do know is kept by our elders. Even by their account, the Vales of Anduin have always been peaceful. When a great cataclysm ended the last age, only in the Vales did life remain unchanged. Just like the bee’s that enjoy the flourishing wildflowers, the Vales became a refuge for many. So by most Vales-folks reckoning the Homestead-hobbits have always been here. Practiced in many skills and trades, only the curious and adventurous among hobbits chooses to become a Ranger. Among the myriad of demands being to travel many roads and the upkeep of nearby beehives. It’s a pleasant life with the little critters too busy to notice the comings and goings of their keepers. Especially when completed at the right time –– before 2nd breakfast. Well then it’s hardly a chore with them off tending the crops and blooming mouse-leaf.</p>
+<p>Nestled near the footsteps of Hithaeglir the hobbits of Homestead have honed the skill of going unnoticed. Usually this means advantageous use of our small stature. It is, after-all, best to let big-folk sort their own problems. Though that’s hardly required here in the Upper Vales. Why, I'd say there's nary a locked door in the whole Vale. Except maybe in the northern reaches where dire-bears are said to roam. It helps that bears lack opposable-thumbs, and only become unruly if they eat the creatures found north of Cirith Forn. Oddly enough, none of us can rightly say what brought hobbits to Homestead. That’s on account of having lost the tales during the journey. What little we do know is kept by our elders. Even by their account, the Vales of Anduin have always been peaceful. When a great cataclysm ended the last age, only in the Vales did life remain unchanged. Just like the bee’s that enjoy the flourishing wildflowers, the Vales became a refuge for many. So by most Vales-folks reckoning the Homestead-hobbits have always been here. Practiced in many skills and trades, only the curious and adventurous among hobbits chooses to become a Ranger. Among the myriad of demands being to travel many roads and the upkeep of nearby beehives. It’s a pleasant life with the little critters too busy to notice the comings and goings of their keepers. Especially when completed at the right time –– before 2nd breakfast. Well then it’s hardly a chore with them off tending the crops and blooming mouse-leaf.</p>
 
 <div class="collapsible-code">
 <button type="button">Generate base images</button>
@@ -678,7 +678,7 @@ The women is weaving a tapestry by hand with her tools as the man watches intent
 
 <p><em>Facing east on the shores of Tol Eressëa. An island in the chain of Enchanted Isles can be seen on the horizon. Beyond it the Shadowy Seas, Númenór and Middle-Earth.</em></p>
 
-<p>Once before time, and this tale begins, the Author of the Great Tale, Eru Ilúvatar, conceived that his story should be sung into existence. Giving form to his thoughts he created the Ainur and taught them to sing in harmony. Then, Eru, bestowed upon the Ainur his vision for the Universe. Speaking the words, let it be, he tasked them with shaping the Great Tale. Thus, there came to be the void and creation in Arda.</p>
+<p>Once before Time, and this tale begins, the Author of the Great Tale, Eru Ilúvatar, conceived that his story should be sung into existence. Giving form to his thoughts he created the Ainur and taught them to sing in harmony. Then, Eru, bestowed upon the Ainur his vision for the Universe. Speaking the words, let it be, he tasked them with shaping the Great Tale. Thus, there came to be the void and creation in Arda.</p>
 
 <p>However, Eru, had not revealed his entire plan to the Ainur when they began. For he had longed for another voice to join in singing the Great Tale. The Children of Ilúvatar were to be given free will in choosing the ending, and the gift to transcend it's design. While the Ainur could sing the stories of Arda, it's endings would remain the purview of his Children. Thus, there came to be a Great Tapestry and none but Eru know it's completed form.</p>
 
